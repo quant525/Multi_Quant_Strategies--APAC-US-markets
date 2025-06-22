@@ -28,7 +28,7 @@ Key performance metrics include:
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-### Performance Ratios
+### 📊 Performance Ratios
 
 | Metric Description                                                  | Value         |
 |--------------------------------------------------------------------|---------------|
@@ -39,8 +39,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Fouse Ratio**                                                    | 0.0062        |
 | **Calmar Ratio**                                                   | 0.0593        |
 | **Sterling Ratio**                                                 | 0.0020        |
-
-### Efficiency & Statistics
+---
+### 📊  Profitability Ratios
 
 | Metric                                  | All Trades   | Long Trades   | Short Trades   |
 |----------------------------------------|--------------|---------------|----------------|
@@ -52,7 +52,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Commission Paid                        | 0            | 0             | 0              |
 | Unrealized P&L                         | n/a          | n/a           | n/a            |
 
-### Annual and Monthly Return Metrics
+### 📊 Annual and Monthly Return Metrics
 
 | Metric                                  | Value        |
 |----------------------------------------|--------------|
@@ -62,7 +62,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Average Monthly Return ($)                 | 135074.3119  |     
 | Standard Deviation of Monthly Returns  | 333431.9566  | 
 
-### Risk Metrics
+### 📊 Risk Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
@@ -71,8 +71,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Maximum Closed Trade Loss              | -989600      | -839800       | -2003700       |
 | Maximum Closed Trade Loss (%)          | -5.001412359 | -2.648359203  | -11.67419233   |
 | Return After Maximum Strategy Drawdown | 8.912288136  | 6.61125908    | 2.566538384    |
-
-### Trade Summary
+---
+### 📊 Trade Summary
 
 - **Total Number of Trades:** 434  
   - Long: 242 
@@ -81,8 +81,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
   - **All**: 78.57%  
   - Long: 82.23%  
   - Short: 73.96%
-
-### Core Metrics
+---
+### 📊 Core Metrics
 
 | Metric                                 | All Trades   | Long Trades   | Short Trades   |
 |:---------------------------------------|:-------------|:--------------|:---------------|
@@ -98,8 +98,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Required Account Capital               | 989600       | 839800        | 2003700        |
 | Account Return (%)                     | 2975.565885  | 2601.047869   | 379.4280581    |
 | Return on Initial Capital (%)          | 294.462      | 218.436       | 76.026         |
-
-### Return-to-Drawdown Ratios
+---
+### 📊 Return-to-Drawdown Ratios
 
 | Ratio Description                                                 | Value         |
 |-------------------------------------------------------------------|---------------|
@@ -112,12 +112,12 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Adjusted Net Profit / Max Loss (%)**                             | 2947.49       |
 | **Adjusted Net Profit / Max Trade Drawdown (%)**                   | 864.19        |
 | **Adjusted Net Profit / Max Strategy Drawdown (%)**                | 769.34        |
-
+---
 ## 📈 NAV (Since June 2007)
 
 
 ![NAV_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/ad7a1eff-8696-4089-a674-6605ca8098fa)
-
+---
 ## 📈 Equity Curve (Since June 2007)
 
 
