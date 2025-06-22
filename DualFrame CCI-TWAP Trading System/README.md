@@ -1,20 +1,20 @@
 # 📈 DualFrame CCI-TWAP Trading System
 
-## 📌 Strategy Overview
+The DualFrame CCI-TWAP System is designed to generate high-confidence directional signals through statistical filtering of normalized price deviation metrics (CCI) across two temporal resolutions. A time-weighted average price (TWAP) component is used as a dynamic price anchor to regulate signal activation, enhancing noise suppression and trend alignment without reliance on conventional chart-based techniques.
 
-- **Strategy Name**: DualFrame CCI-TWAP System  
-- **Asset**: TAIEX Futures  
-- **Type**: Momentum-Based Trend-Following  
-- **Data Frequency**: 10-minute K-bars  
-- **Holding Duration**: 1.5 to 3 days  
+A directional, quantitative-filtered momentum strategy that integrates multi-horizon signal alignment (via CCI) with time-weighted price anchoring (TWAP) for noise reduction and trend validation.
+
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
 ## 📌 Strategy Overview
 
-- **Strategy Name**: DualFrame CCI-TWAP System  
-- **Asset**: TAIEX Futures  
-- **Type**: Momentum-Based Trend-Following  
-- **Data Frequency**: 10-minute K-bars  
-- **Holding Duration**: 1.5 to 3 days  
+This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
+
+- **Strategy Name:** DualFrame CCI-TWAP System  
+- **Asset:** Taiwan Index Futures (TXF)    
+- **Type:** Momentum-Based Trend-Following  
+- **Data Frequency:** 10-minute bars  
+- **Holding Duration:** 1.5 to 3 days  
 
 ## 📊 Strategy Performance Report
 
