@@ -1,7 +1,6 @@
 # 📈 Dynamic Bivariate Regression Trading Strategy
  
 This strategy is based on a Dynamic Bivariate Regression Model that captures evolving relationships between two market variables, using rolling 30-minute intervals to forecast short-term directional movement on the Taiwan Index Futures.
-This repository tracks the position changes of the TXF Dynamic Bivariate Regression Model Strategy.
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
@@ -18,7 +17,7 @@ This repository tracks the position changes of the TXF Dynamic Bivariate Regress
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
 Key performance metrics include:
-- Sharpe Ratio
+- Sharpe Ratio : 1.0537 
 - CAGR (Annualized Return)
 - Maximum Drawdown
 - Profit Factor
