@@ -16,12 +16,13 @@ This GitHub project monitors and visualizes the position changes for the strateg
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
-Key performance metrics include:
-- Sharpe Ratio
-- CAGR (Annualized Return)
-- Maximum Drawdown
-- Profit Factor
-- Win Rate (%)
+Key performance metrics include **(Backtested Period : From April 2007 to June 2025)**:
+- **Sharpe Ratio** : 
+- **CAGR (Annualized Return)** :
+- **Maximum Drawdown** : 
+- **Profit Factor** : 
+- **Win Rate (%)**: 
+
 
 ## 📌 Strategy Performance Report (Backtested Period : From April 2007 to June 2025)
 
