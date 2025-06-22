@@ -4,7 +4,7 @@ This repository tracks the position changes of the TXF Strategy A using 30-minut
 
 ## 📌 Strategy Attributes
 
-- **Strategy Name:** Dynamic Dual-Variable Model  
+- **Strategy Name:** Dynamic Bivariate Regression Model  
 - **Asset:** Taiwan Index Futures (TXF)  
 - **Type:** Statistical Forecasting Model  
 - **Rolling Frequency:** 30-minute bars  
