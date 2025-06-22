@@ -16,7 +16,7 @@ This strategy is based on a Dynamic Bivariate Regression Model that captures evo
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
-Key performance metrics include:
+Key performance metrics include  (Backtested Period : From June 2001 to June 2025):
 - **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025)**
 - **CAGR (Annualized Return)** : 29.54%
 - **Maximum Drawdown** : -20.52%
