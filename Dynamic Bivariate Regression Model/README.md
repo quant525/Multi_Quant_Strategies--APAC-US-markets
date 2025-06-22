@@ -13,7 +13,7 @@ This repository tracks the position changes of the TXF Dynamic Bivariate Regress
 - **Rolling Frequency:** 30-minute bars  
 - **Typical Holding Time:** 2 to 3 days
 
-## Overview
+## 📌 Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
@@ -29,7 +29,7 @@ Key performance metrics include:
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-## 📊 Performance Ratios
+### Performance Ratios
 
 | Metric Description                                                                 | Value         |
 |------------------------------------------------------------------------------------|---------------|
@@ -40,6 +40,48 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Fouse Ratio**                                                                   | 0.0068        |
 | **Calmar Ratio**                                                                  | 0.0232        |
 | **Sterling Ratio**                                                                | 0.0020        |
+
+### Efficiency & Statistics
+
+| Metric                             | All Trades   | Long Trades  | Short Trades  |
+|-----------------------------------|--------------|--------------|---------------|
+| **Profit Factor**                 | 1.48         | 1.63         | 1.34          |
+| **Adjusted Profit Factor**        | 1.39         | 1.49         | 1.22          |
+| **Specific Profit Factor**        | 1.55         | 1.59         | 1.50          |
+| **Max Contracts Held**            | 5            | 3            | 5             |
+| **Slippage Paid**                 | 767,000      | 331,500      | 435,500       |
+| **Commission Paid**               | 0            | 0            | 0             |
+| **Unrealized P&L**                | 32,800       | n/a          | 32,800        |
+
+### Annual and Monthly Return Metrics
+
+| Metric                             | Value        |
+|-----------------------------------|--------------|
+| **Annualized Return (%)**         | 29.54        |
+| **Monthly Return (%)**            | 2.46         |
+| **Average Monthly Return ($)**    | 49,323.18    |
+| **Standard Deviation of Monthly Returns** | 165,705.49 |
+| **Buy-and-Hold Return ($)**       | 6,762,849.05 |
+
+### Risk Metrics
+
+| Metric                             | All Trades   | Long Trades  | Short Trades  |
+|-----------------------------------|--------------|--------------|---------------|
+| **Max Strategy Drawdown**         | -2,136,700   | -1,187,800   | -1,282,500    |
+| **Max Strategy Drawdown (%)**     | -20.52%      | -31.71%      | -16.56%       |
+| **Max Closed Trade Loss**         | -1,799,100   | -1,093,100   | -885,500      |
+| **Max Closed Trade Loss (%)**     | -18.68%      | -29.52%      | -14.85%       |
+| **Return After Drawdown**         | 6.66         | 7.67         | 3.99          |
+
+### Trade Summary
+
+- **Total Number of Trades:** 2,005  
+  - Long: 1,006  
+  - Short: 999  
+- **Win Rate:**  
+  - All: 56.41%  
+  - Long: 57.16%  
+  - Short: 55.66%
 
 ### Return-to-Drawdown Ratios
 
@@ -55,9 +97,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net Profit / Max Closed Trade Drawdown (%)                                                | 1908.22       |
 | Adjusted Net Profit / Max Strategy Drawdown (%)                                                    | 557.81        |
 
-## 📊 Strategy Performance Summary
-
-### 🔢 Core Metrics
+### Core Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
@@ -73,48 +113,6 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Required Capital**              | 1,799,100    | 1,093,100    | 885,500       |
 | **Account Return (%)**            | 790.48%      | 833.22%      | 577.49%       |
 | **Return on Initial Capital (%)** | 711.08%      | 455.39%      | 255.69%       |
-
-### 📉 Risk Metrics
-
-| Metric                             | All Trades   | Long Trades  | Short Trades  |
-|-----------------------------------|--------------|--------------|---------------|
-| **Max Strategy Drawdown**         | -2,136,700   | -1,187,800   | -1,282,500    |
-| **Max Strategy Drawdown (%)**     | -20.52%      | -31.71%      | -16.56%       |
-| **Max Closed Trade Loss**         | -1,799,100   | -1,093,100   | -885,500      |
-| **Max Closed Trade Loss (%)**     | -18.68%      | -29.52%      | -14.85%       |
-| **Return After Drawdown**         | 6.66         | 7.67         | 3.99          |
-
-### 📈 Efficiency & Statistics
-
-| Metric                             | All Trades   | Long Trades  | Short Trades  |
-|-----------------------------------|--------------|--------------|---------------|
-| **Profit Factor**                 | 1.48         | 1.63         | 1.34          |
-| **Adjusted Profit Factor**        | 1.39         | 1.49         | 1.22          |
-| **Specific Profit Factor**        | 1.55         | 1.59         | 1.50          |
-| **Max Contracts Held**            | 5            | 3            | 5             |
-| **Slippage Paid**                 | 767,000      | 331,500      | 435,500       |
-| **Commission Paid**               | 0            | 0            | 0             |
-| **Unrealized P&L**                | 32,800       | n/a          | 32,800        |
-
-### 📆 Annual and Monthly Return Metrics
-
-| Metric                             | Value        |
-|-----------------------------------|--------------|
-| **Annualized Return (%)**         | 29.54        |
-| **Monthly Return (%)**            | 2.46         |
-| **Average Monthly Return ($)**    | 49,323.18    |
-| **Standard Deviation of Monthly Returns** | 165,705.49 |
-| **Buy-and-Hold Return ($)**       | 6,762,849.05 |
-
-### 📊 Trade Summary
-
-- **Total Number of Trades:** 2,005  
-  - Long: 1,006  
-  - Short: 999  
-- **Win Rate:**  
-  - All: 56.41%  
-  - Long: 57.16%  
-  - Short: 55.66%
 
 ## 📈 NAV (Since June 2001)
 
