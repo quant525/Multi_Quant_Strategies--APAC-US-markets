@@ -12,7 +12,7 @@ This GitHub project monitors and visualizes the position changes for the strateg
 - **Data Frequency**: 30-minute bars  
 - **Holding Duration**: 3 to 6 days
 
-## 📌 Overview
+## 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
@@ -24,7 +24,7 @@ Key performance metrics include:
 - Win Rate (%)
 - Gross/Net Profit and Loss
 
-## 📌 Performance Report
+## 📌 Strategy Performance Report
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
