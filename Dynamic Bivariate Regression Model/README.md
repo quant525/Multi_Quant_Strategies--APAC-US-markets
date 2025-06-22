@@ -12,7 +12,7 @@ This strategy is based on a Dynamic Bivariate Regression Model that captures evo
 - **Rolling Frequency:** 30-minute bars  
 - **Typical Holding Time:** 2 to 3 days
 
-## 📌 Overview
+## 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
@@ -23,7 +23,7 @@ Key performance metrics include:
 - **Profit Factor** : 1.48
 - **Win Rate (%)**: 56.41%
 
-## 📌 Performance Report (Backtested Period : From June 2001 to June 2025)
+## 📌 Strategy Performance Report (Backtested Period : From June 2001 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
