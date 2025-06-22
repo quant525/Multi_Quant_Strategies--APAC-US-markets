@@ -1,6 +1,7 @@
 # TXF Strategy A – Position Tracker
 
-This repository tracks the position changes of the TXF Strategy A using 30-minute rolling forecasts.
+This repository tracks the position changes of the TXF Strategy A using 30-minute rolling forecasts. 
+This strategy is based on a Dynamic Bivariate Regression Model that captures evolving relationships between two market variables, using rolling 30-minute intervals to forecast short-term directional movement on the Taiwan Index Futures.
 
 ## 📌 Strategy Attributes
 
