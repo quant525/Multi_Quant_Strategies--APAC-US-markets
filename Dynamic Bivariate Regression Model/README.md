@@ -2,6 +2,7 @@
  
 This strategy is based on a Dynamic Bivariate Regression Model that captures evolving relationships between two market variables, using rolling 30-minute intervals to forecast short-term directional movement on the Taiwan Index Futures.
 This repository tracks the position changes of the TXF Dynamic Bivariate Regression Model Strategy.
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
 ## 📌 Strategy Attributes
 
@@ -11,12 +12,21 @@ This repository tracks the position changes of the TXF Dynamic Bivariate Regress
 - **Rolling Frequency:** 30-minute bars  
 - **Typical Holding Time:** 2 to 3 days
 
+## Overview
 
-# 📈 Dynamic Bivariate Regression Model Performance Report
+This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
+
+Key performance metrics include:
+- Sharpe Ratio
+- CAGR (Annualized Return)
+- Maximum Drawdown
+- Profit Factor
+- Win Rate (%)
+- Gross/Net Profit and Loss
+
+## 📈 Dynamic Bivariate Regression Model Performance Report
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
-
----
 
 ## 📊 Performance Ratios
 
@@ -44,11 +54,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net Profit / Max Closed Trade Drawdown (%)                                                | 1908.22       |
 | Adjusted Net Profit / Max Strategy Drawdown (%)                                                    | 557.81        |
 
----
-
 ## 📊 Strategy Performance Summary
-
-This report summarizes the performance of the trading strategy based on live and backtested data, covering both long and short trades.
 
 ### 🔢 Core Metrics
 
@@ -108,8 +114,6 @@ This report summarizes the performance of the trading strategy based on live and
   - All: 56.41%  
   - Long: 57.16%  
   - Short: 55.66%
-
-*This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
 ## 📈 NAV (Since June 2001)
 
