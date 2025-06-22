@@ -102,8 +102,14 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net / Max Strategy DD (%) | 650.85% |
 
 ---
-## 📈 NAV (Since June 2001)
+## 📈 NAV (Since June 2017)
 
+![NAV_DualFrame CCI-TWAP System](https://github.com/user-attachments/assets/be667483-9072-4df6-9304-5d90fbfba249)
+
+---
+## 📈 Equity Curve (Since June 2017)
+
+![EquityCurve_DualFrame CCI-TWAP System](https://github.com/user-attachments/assets/1051c406-6c75-487e-bf5f-6ce09dfe1760)
 
 
 ## Position Chart (Last 20 Days @13:45)
