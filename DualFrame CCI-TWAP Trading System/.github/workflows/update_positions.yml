@@ -1,0 +1,32 @@
+name: Update TXFstrategyC Positions
+
+on:
+  schedule:
+    - cron: '5 6 * * *'  # Daily at 06:05 UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install pandas matplotlib
+
+      - name: Run Position Updater
+        run: python scripts/update_and_plot.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'actions@github.com'
+          git add .
+          git commit -m "Auto-update TXFstrategyC position chart"
+          git push
