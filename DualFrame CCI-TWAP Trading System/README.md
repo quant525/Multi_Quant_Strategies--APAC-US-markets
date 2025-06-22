@@ -27,6 +27,33 @@ Key performance metrics include:
 
 ## 📊 Strategy Performance Report
 
+This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
+
+## Performance Ratios
+
+| Metric | Value |
+|--------|-------|
+| **Upside Potential Ratio** | 172.58 |
+| **Sharpe Ratio** | 0.47 |
+| **Annual Sharpe Ratio** | 1.64 |
+| **Sortino Ratio** | 1.29 |
+| **Fouse Ratio** | 0.0126 |
+| **Calmar Ratio** | 0.0194 |
+| **Sterling Ratio** | 0.0020 |
+
+---
+
+### 📌 Profitability Ratios
+
+| Ratio | Value |
+|-------|-------|
+| **Profit Factor** | 1.42 |
+| **Adjusted Profit Factor** | 1.33 |
+| **Specific Profit Factor** | 1.38 |
+| **Return After Max DD** | 8.10 |
+| **Slippage Paid** | 1,935,500 |
+| **Commission Paid** | 0 |
+
 ### 📌 General Performance Metrics
 
 | Metric | All Trades | Long Trades | Short Trades |
@@ -57,33 +84,6 @@ Key performance metrics include:
 | **Buy-and-Hold Return** | 2,177,535 |
 | **Average Monthly Return** | 48,203 |
 | **Monthly Return StdDev** | 112,044 |
-
----
-
-### 📌 Profitability Ratios
-
-| Ratio | Value |
-|-------|-------|
-| **Profit Factor** | 1.42 |
-| **Adjusted Profit Factor** | 1.33 |
-| **Specific Profit Factor** | 1.38 |
-| **Return After Max DD** | 8.10 |
-| **Slippage Paid** | 1,935,500 |
-| **Commission Paid** | 0 |
-
----
-
-## Performance Ratios
-
-| Metric | Value |
-|--------|-------|
-| **Upside Potential Ratio** | 172.58 |
-| **Sharpe Ratio** | 0.47 |
-| **Annual Sharpe Ratio** | 1.64 |
-| **Sortino Ratio** | 1.29 |
-| **Fouse Ratio** | 0.0126 |
-| **Calmar Ratio** | 0.0194 |
-| **Sterling Ratio** | 0.0020 |
 
 ---
 
