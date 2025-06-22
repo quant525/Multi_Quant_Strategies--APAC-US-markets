@@ -6,15 +6,24 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
-## 📌 Strategy Overview
-
-This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
+## 📌 Strategy Attributes
 
 - **Strategy Name:** DualFrame CCI-TWAP System  
 - **Asset:** Taiwan Index Futures (TXF)    
 - **Type:** Momentum-Based Trend-Following  
 - **Data Frequency:** 10-minute bars  
-- **Holding Duration:** 1.5 to 3 days  
+- **Holding Duration:** 1.5 to 3 days
+- 
+## 📌 Strategy Overview
+
+This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
+
+Key performance metrics include:
+- Sharpe Ratio
+- CAGR (Annualized Return)
+- Maximum Drawdown
+- Profit Factor
+- Win Rate (%)
 
 ## 📊 Strategy Performance Report
 
