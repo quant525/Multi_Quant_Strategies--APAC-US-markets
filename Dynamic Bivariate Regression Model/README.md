@@ -18,6 +18,34 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 ---
 
+## 📊 Performance Ratios
+
+| Metric Description                                                                 | Value         |
+|------------------------------------------------------------------------------------|---------------|
+| **Upside Potential Ratio**                                                        | 61.8100       |
+| **Sharpe Ratio**                                                                  | 0.3042        |
+| **Annualized Sharpe Ratio**                                                       | 1.0537        |
+| **Sortino Ratio**                                                                 | 0.3582        |
+| **Fouse Ratio**                                                                   | 0.0068        |
+| **Calmar Ratio**                                                                  | 0.0232        |
+| **Sterling Ratio**                                                                | 0.0020        |
+
+### Return-to-Drawdown Ratios
+
+| Ratio Description                                                                                  | Value         |
+|----------------------------------------------------------------------------------------------------|---------------|
+| Net Profit / Max Loss (%)                                                                          | 2875.96       |
+| Net Profit / Max Closed Trade Drawdown (%)                                                         | 2276.91       |
+| Net Profit / Max Strategy Drawdown (%)                                                             | 665.59        |
+| Specific Net Profit / Max Loss (%)                                                                 | 2013.93       |
+| Specific Net Profit / Max Closed Trade Drawdown (%)                                                | 1594.44       |
+| Specific Net Profit / Max Strategy Drawdown (%)                                                    | 466.09        |
+| Adjusted Net Profit / Max Loss (%)                                                                 | 2410.26       |
+| Adjusted Net Profit / Max Closed Trade Drawdown (%)                                                | 1908.22       |
+| Adjusted Net Profit / Max Strategy Drawdown (%)                                                    | 557.81        |
+
+---
+
 ## 📊 Strategy Performance Summary
 
 This report summarizes the performance of the trading strategy based on live and backtested data, covering both long and short trades.
@@ -80,6 +108,8 @@ This report summarizes the performance of the trading strategy based on live and
   - All: 56.41%  
   - Long: 57.16%  
   - Short: 55.66%
+
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
 ## 📈 NAV (Since June 2001)
 
