@@ -11,7 +11,11 @@ This repository tracks the position changes of the TXF Dynamic Bivariate Regress
 - **Rolling Frequency:** 30-minute bars  
 - **Typical Holding Time:** 2 to 3 days
 
-## 📈 Position Time Series (Since March 2024)
+## 📈 Equity Curve (Since June 2001)
+
+![Equity Curve](images/EquityCurve_Dynamic Bivariate Regression Model.png)
+
+## 📈 Position (Since March 2024)
 
 ![Position Chart](images/position_plot_english_fixed.png)
 
