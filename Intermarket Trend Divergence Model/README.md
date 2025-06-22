@@ -22,9 +22,8 @@ Key performance metrics include:
 - Maximum Drawdown
 - Profit Factor
 - Win Rate (%)
-- Gross/Net Profit and Loss
 
-## 📌 Strategy Performance Report
+## 📌 Strategy Performance Report (Backtested Period : From April 2007 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
