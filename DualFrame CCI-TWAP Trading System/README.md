@@ -25,11 +25,11 @@ Key performance metrics include:
 - Profit Factor
 - Win Rate (%)
 
-## 📊 Strategy Performance Report
+## 📌 Strategy Performance Report
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-## Performance Ratios
+### 📊 Performance Ratios
 
 | Metric | Value |
 |--------|-------|
