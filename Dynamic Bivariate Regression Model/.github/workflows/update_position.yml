@@ -1,0 +1,35 @@
+
+name: Auto Update Position Plot
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每日 UTC 00:00，自動更新圖表與說明
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install pandas matplotlib
+
+    - name: Run update script
+      run: |
+        python scripts/generate_position_plot.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add README.md images/pos_TXFstrategyA_plot.png
+        git commit -m "Auto update position chart and README" || echo "No changes to commit"
+        git push
