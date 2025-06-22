@@ -46,10 +46,10 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Metric                                  | Value        |
 |----------------------------------------|--------------|
-| **Annualized Return**                  | 16.15580837  | 
-| Monthly Return                         | 1.346317364  | 
-| Buy-and-Hold Return                    | 17440121.66  | 
-| Average Monthly Return                 | 135074.3119  |     
+| **Annualized Return (%)**                  | 16.15580837  | 
+| Monthly Return (%)                         | 1.346317364  | 
+| Buy-and-Hold Return ($)                    | 17440121.66  | 
+| Average Monthly Return ($)                 | 135074.3119  |     
 | Standard Deviation of Monthly Returns  | 333431.9566  | 
 
 ### Risk Metrics
@@ -77,8 +77,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Metric                                 | All Trades   | Long Trades   | Short Trades   |
 |:---------------------------------------|:-------------|:--------------|:---------------|
 | **Net Profit**                         | 29446200     | 21843600      | 7602600        |
-| Gross Profit                           | 44856200     | 28031200      | 16825000       |
-| Gross Loss                             | -15410000    | -6187600      | -9222400       |
+| **Gross Profit**                           | 44856200     | 28031200      | 16825000       |
+| **Gross Loss**                             | -15410000    | -6187600      | -9222400       |
 | Net Profit (Adjusted)                  | 25419158.02  | 18912920.76   | 4886433.049    |
 | Gross Profit (Adjusted)                | 42427100.58  | 26044120.92   | 15413077.36    |
 | Gross Loss (Adjusted)                  | -17007942.56 | -7131200.154  | -10526644.32   |
@@ -86,8 +86,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Specific Gross Profit                  | 28166600     | 14718700      | 13447900       |
 | Specific Gross Loss                    | -9601200     | -4912000      | -4689200       |
 | Required Account Capital               | 989600       | 839800        | 2003700        |
-| Account Return                         | 2975.565885  | 2601.047869   | 379.4280581    |
-| Return on Initial Capital              | 294.462      | 218.436       | 76.026         |
+| Account Return (%)                     | 2975.565885  | 2601.047869   | 379.4280581    |
+| Return on Initial Capital (%)          | 294.462      | 218.436       | 76.026         |
 
 ## 🔍 Position Time Series Chart
 The following chart visualizes the strategy’s position changes since March 2024.
