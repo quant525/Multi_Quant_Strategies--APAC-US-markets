@@ -38,8 +38,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Fouse Ratio**                                                                   | 0.0068        |
 | **Calmar Ratio**                                                                  | 0.0232        |
 | **Sterling Ratio**                                                                | 0.0020        |
-
-### Efficiency & Statistics
+---
+### Profitability Ratios
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
