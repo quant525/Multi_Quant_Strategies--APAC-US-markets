@@ -1,4 +1,4 @@
-## 📈 Dynamic Bivariate Regression Model
+# 📈 Dynamic Bivariate Regression Trading Strategy
  
 This strategy is based on a Dynamic Bivariate Regression Model that captures evolving relationships between two market variables, using rolling 30-minute intervals to forecast short-term directional movement on the Taiwan Index Futures.
 This repository tracks the position changes of the TXF Dynamic Bivariate Regression Model Strategy.
