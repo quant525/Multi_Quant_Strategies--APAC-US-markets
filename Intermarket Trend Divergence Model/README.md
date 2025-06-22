@@ -23,15 +23,14 @@ Key performance metrics include:
 - Profit Factor
 - Win Rate (%)
 - Gross/Net Profit and Loss
-- 
+
 # Strategy Performance Report
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-## Performance Metrics
 ## Performance Ratios
 
-| Metric                                                             | Value         |
+| Metric Description                                                  | Value         |
 |--------------------------------------------------------------------|---------------|
 | **Upside Potential Ratio**                                         | 143.72        |
 | **Sharpe Ratio**                                                   | 0.4235        |
@@ -40,15 +39,6 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Fouse Ratio**                                                    | 0.0062        |
 | **Calmar Ratio**                                                   | 0.0593        |
 | **Sterling Ratio**                                                 | 0.0020        |
-| **Net Profit / Max Loss (%)**                                      | 3414.45       |
-| **Net Profit / Max Trade Drawdown (%)**                            | 1001.09       |
-| **Net Profit / Max Strategy Drawdown (%)**                         | 891.23        |
-| **Specific Net Profit / Max Loss (%)**                             | 2152.76       |
-| **Specific Net Profit / Max Trade Drawdown (%)**                   | 631.18        |
-| **Specific Net Profit / Max Strategy Drawdown (%)**                | 561.91        |
-| **Adjusted Net Profit / Max Loss (%)**                             | 2947.49       |
-| **Adjusted Net Profit / Max Trade Drawdown (%)**                   | 864.19        |
-| **Adjusted Net Profit / Max Strategy Drawdown (%)**                | 769.34        |
 
 ### Efficiency & Statistics
 
@@ -109,10 +99,17 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Account Return (%)                     | 2975.565885  | 2601.047869   | 379.4280581    |
 | Return on Initial Capital (%)          | 294.462      | 218.436       | 76.026         |
 
-## 🔍 Position Time Series Chart
-The following chart visualizes the strategy’s position changes since March 2024.
+### Return-to-Drawdown Ratios
 
-![Position Chart](charts/position_chart.png)
+| **Net Profit / Max Loss (%)**                                      | 3414.45       |
+| **Net Profit / Max Trade Drawdown (%)**                            | 1001.09       |
+| **Net Profit / Max Strategy Drawdown (%)**                         | 891.23        |
+| **Specific Net Profit / Max Loss (%)**                             | 2152.76       |
+| **Specific Net Profit / Max Trade Drawdown (%)**                   | 631.18        |
+| **Specific Net Profit / Max Strategy Drawdown (%)**                | 561.91        |
+| **Adjusted Net Profit / Max Loss (%)**                             | 2947.49       |
+| **Adjusted Net Profit / Max Trade Drawdown (%)**                   | 864.19        |
+| **Adjusted Net Profit / Max Strategy Drawdown (%)**                | 769.34        |
 
 ## 📊 Recent 20 Trading Days (13:45 Snapshot)
 Daily positions taken at 13:45 each day.
