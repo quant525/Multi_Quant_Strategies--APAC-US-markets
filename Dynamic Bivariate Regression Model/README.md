@@ -1,10 +1,11 @@
-# TXF Strategy A – Position Tracker
-
-This repository tracks the position changes of the TXF Strategy A using 30-minute rolling forecasts.
+## Dynamic Bivariate Regression Model – Position Tracker
+ 
+This strategy is based on a Dynamic Bivariate Regression Model that captures evolving relationships between two market variables, using rolling 30-minute intervals to forecast short-term directional movement on the Taiwan Index Futures.
+This repository tracks the position changes of the TXF Dynamic Bivariate Regression Model Strategy.
 
 ## 📌 Strategy Attributes
 
-- **Strategy Name:** Dynamic Dual-Variable Model  
+- **Strategy Name:** Dynamic Bivariate Regression Model  
 - **Asset:** Taiwan Index Futures (TXF)  
 - **Type:** Statistical Forecasting Model  
 - **Rolling Frequency:** 30-minute bars  
@@ -22,7 +23,7 @@ Data is available in: `data/recent_1345_positions.csv`
 
 ## 🔄 Data Source
 
-Data is exported from MultiCharts in CSV format. Strategy logic is not included.
+Data is exported from MultiCharts in CSV format.
 
 ## 📁 Files
 
