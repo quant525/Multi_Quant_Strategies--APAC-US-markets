@@ -111,6 +111,14 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Adjusted Net Profit / Max Trade Drawdown (%)**                   | 864.19        |
 | **Adjusted Net Profit / Max Strategy Drawdown (%)**                | 769.34        |
 
+## 📈 NAV (Since June 2007)
+
+
+
+## 📈 Equity Curve (Since June 2007)
+
+![NAV_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/396f58ab-56e3-4732-9f71-ab48c3cc4c14)
+
 ## 📊 Recent 20 Trading Days (13:45 Snapshot)
 Daily positions taken at 13:45 each day.
 
