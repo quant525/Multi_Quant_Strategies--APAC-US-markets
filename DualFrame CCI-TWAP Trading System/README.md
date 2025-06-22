@@ -43,7 +43,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 ---
 
-### 📌 Profitability Ratios
+### 📊 Profitability Ratios
 
 | Ratio | Value |
 |-------|-------|
@@ -54,7 +54,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Slippage Paid** | 1,935,500 |
 | **Commission Paid** | 0 |
 
-### 📌 General Performance Metrics
+### 📊 General Performance Metrics
 
 | Metric | All Trades | Long Trades | Short Trades |
 |--------|------------|-------------|--------------|
