@@ -115,7 +115,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 ## 📈 NAV (Since June 2001)
 
 ![NAV_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/71c4f968-4615-4fcf-8514-9f48c271443d)
-
+---
 ## 📈 Equity Curve (Since June 2001)
 
 ![EquityCurve_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/20feb853-ac5f-4681-8eef-bd6b5db079e2)
