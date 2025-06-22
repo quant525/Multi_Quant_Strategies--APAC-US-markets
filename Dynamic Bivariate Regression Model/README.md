@@ -60,7 +60,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Average Monthly Return ($)**    | 49,323.18    |
 | **Standard Deviation of Monthly Returns** | 165,705.49 |
 | **Buy-and-Hold Return ($)**       | 6,762,849.05 |
-
+---
 ### Risk Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
@@ -70,7 +70,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Max Closed Trade Loss**         | -1,799,100   | -1,093,100   | -885,500      |
 | **Max Closed Trade Loss (%)**     | -18.68%      | -29.52%      | -14.85%       |
 | **Return After Drawdown**         | 6.66         | 7.67         | 3.99          |
-
+---
 ### Trade Summary
 
 - **Total Number of Trades:** 2,005  
@@ -80,7 +80,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
   - All: 56.41%  
   - Long: 57.16%  
   - Short: 55.66%
-
+---
 ### Return-to-Drawdown Ratios
 
 | Ratio Description                                                                                  | Value         |
@@ -94,7 +94,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net Profit / Max Loss (%)                                                                 | 2410.26       |
 | Adjusted Net Profit / Max Closed Trade Drawdown (%)                                                | 1908.22       |
 | Adjusted Net Profit / Max Strategy Drawdown (%)                                                    | 557.81        |
-
+---
 ### Core Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
@@ -111,7 +111,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Required Capital**              | 1,799,100    | 1,093,100    | 885,500       |
 | **Account Return (%)**            | 790.48%      | 833.22%      | 577.49%       |
 | **Return on Initial Capital (%)** | 711.08%      | 455.39%      | 255.69%       |
-
+---
 ## 📈 NAV (Since June 2001)
 
 ![NAV_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/71c4f968-4615-4fcf-8514-9f48c271443d)
