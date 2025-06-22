@@ -89,11 +89,6 @@ This report summarizes the performance of the trading strategy based on live and
 
 ![EquityCurve_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/20feb853-ac5f-4681-8eef-bd6b5db079e2)
 
-{## 📈 Position Tracker (Since March 2024)
-
-![Position Chart](images/position_plot_english_fixed.png)
-}
-
 ## 📋 Recent Daily Positions at 13:45
 
 This table shows the position size for each day at exactly 13:45.
