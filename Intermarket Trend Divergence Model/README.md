@@ -113,11 +113,11 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 ## 📈 NAV (Since June 2007)
 
-
+![NAV_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/ad7a1eff-8696-4089-a674-6605ca8098fa)
 
 ## 📈 Equity Curve (Since June 2007)
 
-![NAV_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/396f58ab-56e3-4732-9f71-ab48c3cc4c14)
+![EquityCurve_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/97b6b009-a921-4d63-8bfc-f511c3a547c5)
 
 ## 📊 Recent 20 Trading Days (13:45 Snapshot)
 Daily positions taken at 13:45 each day.
