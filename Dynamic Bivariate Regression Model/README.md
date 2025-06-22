@@ -17,13 +17,13 @@ This strategy is based on a Dynamic Bivariate Regression Model that captures evo
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
 Key performance metrics include:
-- **Sharpe Ratio** : 1.0537 **(Backtested Period : From June 2001 to June 2025)**
+- **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025)**
 - **CAGR (Annualized Return)** : 29.54%
 - **Maximum Drawdown** : -20.52%
 - **Profit Factor** : 1.48
 - **Win Rate (%)**: 56.41%
 
-## 📌 Performance Report (From June 2001 to June 2025)
+## 📌 Performance Report (Backtested Period : From June 2001 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
