@@ -27,7 +27,7 @@ Key performance metrics include:
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-### Performance Ratios
+### 📊 Performance Ratios
 
 | Metric Description                                                                 | Value         |
 |------------------------------------------------------------------------------------|---------------|
@@ -39,7 +39,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Calmar Ratio**                                                                  | 0.0232        |
 | **Sterling Ratio**                                                                | 0.0020        |
 ---
-### Profitability Ratios
+### 📊 Profitability Ratios
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
@@ -51,7 +51,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Commission Paid**               | 0            | 0            | 0             |
 | **Unrealized P&L**                | 32,800       | n/a          | 32,800        |
 
-### Annual and Monthly Return Metrics
+### 📊 Annual and Monthly Return Metrics
 
 | Metric                             | Value        |
 |-----------------------------------|--------------|
@@ -61,7 +61,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Standard Deviation of Monthly Returns** | 165,705.49 |
 | **Buy-and-Hold Return ($)**       | 6,762,849.05 |
 ---
-### Risk Metrics
+### 📊 Risk Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
@@ -71,7 +71,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Max Closed Trade Loss (%)**     | -18.68%      | -29.52%      | -14.85%       |
 | **Return After Drawdown**         | 6.66         | 7.67         | 3.99          |
 ---
-### Trade Summary
+### 📊 Trade Summary
 
 - **Total Number of Trades:** 2,005  
   - Long: 1,006  
@@ -81,7 +81,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
   - Long: 57.16%  
   - Short: 55.66%
 ---
-### Return-to-Drawdown Ratios
+### 📊 Return-to-Drawdown Ratios
 
 | Ratio Description                                                                                  | Value         |
 |----------------------------------------------------------------------------------------------------|---------------|
@@ -95,7 +95,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net Profit / Max Closed Trade Drawdown (%)                                                | 1908.22       |
 | Adjusted Net Profit / Max Strategy Drawdown (%)                                                    | 557.81        |
 ---
-### Core Metrics
+### 📊 Core Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
