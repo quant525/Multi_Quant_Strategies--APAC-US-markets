@@ -13,7 +13,7 @@ This repository tracks the position changes of the TXF Dynamic Bivariate Regress
 
 ## 📈 Equity Curve (Since June 2001)
 
-![Equity Curve](Dynamic Bivariate Regression Model/images/EquityCurve_Dynamic Bivariate Regression Model.png)
+![EquityCurve_Dynamic Bivariate Regression Model](images/EquityCurve_Dynamic Bivariate Regression Model.png)
 
 ## 📈 Position (Since March 2024)
 
