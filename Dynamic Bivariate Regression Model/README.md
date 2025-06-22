@@ -23,7 +23,7 @@ Data is available in: `data/recent_1345_positions.csv`
 
 ## 🔄 Data Source
 
-Data is exported from MultiCharts in CSV format. Strategy logic is not included.
+Data is exported from MultiCharts in CSV format.
 
 ## 📁 Files
 
