@@ -102,6 +102,27 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net / Max Strategy DD (%) | 650.85% |
 
 ---
+## Summary Statistics
+
+| Metric | All Trades | Long Trades | Short Trades |
+|--------|------------|-------------|--------------|
+| Total Trades | 1776 | 1287 | 489 |
+| Win Rate (%) | 44.82 | 46.78 | 39.67 |
+| Avg Trade P&L | 2632.71 | 1966.28 | 4386.71 |
+| Avg Win | 19855.03 | 16864.12 | 29136.08 |
+| Avg Loss | -11484.93 | -11291.26 | -11929.59 |
+| Win/Loss Ratio | 1.73 | 1.49 | 2.44 |
+| Max Win | 167400 | 144400 | 167400 |
+| Max Loss | -101200 | -101200 | -77200 |
+| Avg Bars Held | 53.3 | 57.9 | 41.3 |
+| Avg Bars (Win Trades) | 73.3 | 77.6 | 60 |
+| Avg Bars (Loss Trades) | 37 | 40.4 | 29 |
+| Avg Bars Between Trades | 50.5 | 53 | 25 |
+| Avg Bars Between Wins | 228.3 | 321.2 | 1177.5 |
+| Avg Bars Between Losses | 210.8 | 315.2 | 787.6 |
+
+---
+
 ## 📈 NAV (Since June 2017)
 
 ![NAV_DualFrame CCI-TWAP System](https://github.com/user-attachments/assets/be667483-9072-4df6-9304-5d90fbfba249)
