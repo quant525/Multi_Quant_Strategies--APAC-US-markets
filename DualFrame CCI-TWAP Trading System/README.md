@@ -100,11 +100,17 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net / Max Loss (%) | 3,713.45% |
 | Adjusted Net / Max Trade DD (%) | 3,512.16% |
 | Adjusted Net / Max Strategy DD (%) | 650.85% |
+
+---
+## 📈 NAV (Since June 2001)
+
+
+
 ## Position Chart (Last 20 Days @13:45)
 
 ![Position Chart](charts/last20days_chart.png)
 
-## Sample Position Table (Last 20 Days)
+## Position Table (Last 20 Days)
 
 File: `data/last20days_table.csv`
 
