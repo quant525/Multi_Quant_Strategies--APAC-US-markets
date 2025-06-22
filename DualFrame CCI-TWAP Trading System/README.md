@@ -20,10 +20,10 @@ This table provides a comprehensive summary of the trading strategy based on liv
 
 Key performance metrics include **(Backtested Period : From June 2017 to June 2025)**:
 - **Sharpe Ratio** : **1.64 (8 years backtested sharpe ratio)**
-- **CAGR (Annualized Return)** : 
-- **Maximum Drawdown** : 
-- **Profit Factor** : 
-- **Win Rate (%)**: 
+- **CAGR (Annualized Return)** : 29.21% 
+- **Maximum Drawdown** : -8.98%
+- **Profit Factor** : 1.42
+- **Win Rate (%)**: 44.82%
 
 ## 📌 Strategy Performance Report **(Backtested Period : From June 2017 to June 2025)**
 
