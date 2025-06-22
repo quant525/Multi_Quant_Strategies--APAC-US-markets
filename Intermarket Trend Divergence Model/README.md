@@ -28,7 +28,7 @@ Key performance metrics include:
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-## Performance Ratios
+### Performance Ratios
 
 | Metric Description                                                  | Value         |
 |--------------------------------------------------------------------|---------------|
@@ -101,6 +101,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 ### Return-to-Drawdown Ratios
 
+| Ratio Description                                                 | Value         |
+|-------------------------------------------------------------------|---------------|
 | **Net Profit / Max Loss (%)**                                      | 3414.45       |
 | **Net Profit / Max Trade Drawdown (%)**                            | 1001.09       |
 | **Net Profit / Max Strategy Drawdown (%)**                         | 891.23        |
@@ -113,9 +115,11 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 ## 📈 NAV (Since June 2007)
 
+
 ![NAV_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/ad7a1eff-8696-4089-a674-6605ca8098fa)
 
 ## 📈 Equity Curve (Since June 2007)
+
 
 ![EquityCurve_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/97b6b009-a921-4d63-8bfc-f511c3a547c5)
 
