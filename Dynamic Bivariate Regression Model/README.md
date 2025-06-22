@@ -6,7 +6,7 @@ This strategy is based on a Dynamic Bivariate Regression Model that captures evo
 
 ## 📌 Strategy Attributes
 
-- **Strategy Name:** Dynamic Bivariate Regression Model  
+- **Strategy Name:** Dynamic Bivariate Regression Strategy  
 - **Asset:** Taiwan Index Futures (TXF)  
 - **Type:** Statistical Forecasting Model  
 - **Rolling Frequency:** 30-minute bars  
