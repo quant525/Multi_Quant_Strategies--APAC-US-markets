@@ -29,6 +29,26 @@ Key performance metrics include:
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
 ## Performance Metrics
+## Performance Ratios
+
+| Metric                                                             | Value         |
+|--------------------------------------------------------------------|---------------|
+| **Upside Potential Ratio**                                         | 143.72        |
+| **Sharpe Ratio**                                                   | 0.4235        |
+| **Annualized Sharpe Ratio**                                        | 1.4671        |
+| **Sortino Ratio**                                                  | 0.5451        |
+| **Fouse Ratio**                                                    | 0.0062        |
+| **Calmar Ratio**                                                   | 0.0593        |
+| **Sterling Ratio**                                                 | 0.0020        |
+| **Net Profit / Max Loss (%)**                                      | 3414.45       |
+| **Net Profit / Max Trade Drawdown (%)**                            | 1001.09       |
+| **Net Profit / Max Strategy Drawdown (%)**                         | 891.23        |
+| **Specific Net Profit / Max Loss (%)**                             | 2152.76       |
+| **Specific Net Profit / Max Trade Drawdown (%)**                   | 631.18        |
+| **Specific Net Profit / Max Strategy Drawdown (%)**                | 561.91        |
+| **Adjusted Net Profit / Max Loss (%)**                             | 2947.49       |
+| **Adjusted Net Profit / Max Trade Drawdown (%)**                   | 864.19        |
+| **Adjusted Net Profit / Max Strategy Drawdown (%)**                | 769.34        |
 
 ### Efficiency & Statistics
 
