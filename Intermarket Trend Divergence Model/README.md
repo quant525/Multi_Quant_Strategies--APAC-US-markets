@@ -1,24 +1,16 @@
-# Cross-Market Trend Divergence Strategy Dashboard
+# 📈 Intermarket Trend Divergence Strategy Dashboard
 
 This GitHub project monitors and visualizes the position changes for the strategy: **Cross-Market Trend Divergence Model**, trading **TAIEX Futures**.
 
-## 📈 Strategy Overview
+## 📌 Strategy Attributes
 
-- **Strategy Name**: Cross-Market Trend Divergence Model  
+- **Strategy Name**: Intermarket Trend Divergence Model  
 - **Asset**: TAIEX Futures  
 - **Type**: Directional Alpha Model  
 - **Data Frequency**: 30-minute K-bars  
 - **Holding Duration**: 3 to 6 days
 
 # Strategy Performance Report
-
-## Strategy Information
-
-- **Strategy Name**: Cross-Market Trend Divergence Model
-- **Asset**: TAIEX Futures
-- **Type**: Directional Alpha Model
-- **Data Frequency**: 30-minute K-bars
-- **Holding Duration**: 3 to 6 days
 
 ## Performance Metrics
 
@@ -55,6 +47,7 @@ This GitHub project monitors and visualizes the position changes for the strateg
 | Standard Deviation of Monthly Returns  | 333431.9566  |               |                |
 | Total Number of Trades                 | 434          | 242           | 192            |
 | Win Rate (%)                           | 78.57142857  | 82.23140496   | 73.95833333    |
+
 ## 🔍 Position Time Series Chart
 The following chart visualizes the strategy’s position changes since March 2024.
 
