@@ -10,6 +10,10 @@ This repository tracks the position changes of the TXF Dynamic Bivariate Regress
 - **Type:** Statistical Forecasting Model  
 - **Rolling Frequency:** 30-minute bars  
 - **Typical Holding Time:** 2 to 3 days
+- 
+## 📈 NAV (Since June 2001)
+
+![NAV_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/71c4f968-4615-4fcf-8514-9f48c271443d)
 
 ## 📈 Equity Curve (Since June 2001)
 
