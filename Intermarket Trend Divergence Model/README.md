@@ -1,4 +1,4 @@
-# 📈 Intermarket Trend Divergence Strategy Dashboard
+# 📈 Intermarket Trend Divergence Trading Strategy Dashboard
 
 This GitHub project monitors and visualizes the position changes for the strategy: **Cross-Market Trend Divergence Model**, trading **TAIEX Futures**.
 
