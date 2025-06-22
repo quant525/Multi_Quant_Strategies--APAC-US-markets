@@ -18,14 +18,14 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
-Key performance metrics include:
-- Sharpe Ratio
-- CAGR (Annualized Return)
-- Maximum Drawdown
-- Profit Factor
-- Win Rate (%)
+Key performance metrics include **(Backtested Period : From June 2017 to June 2025)**:
+- **Sharpe Ratio** : **1.64 (8 years backtested sharpe ratio)**
+- **CAGR (Annualized Return)** : 
+- **Maximum Drawdown** : 
+- **Profit Factor** : 
+- **Win Rate (%)**: 
 
-## 📌 Strategy Performance Report
+## 📌 Strategy Performance Report **(Backtested Period : From June 2017 to June 2025)**
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
