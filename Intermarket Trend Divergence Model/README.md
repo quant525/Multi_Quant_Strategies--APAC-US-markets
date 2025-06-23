@@ -6,13 +6,13 @@ This GitHub project monitors and visualizes the position changes for the strateg
 
 ## 📌 Strategy Attributes
 
-- **Strategy Name**: Intermarket Trend Divergence Model  
-- **Asset**: Taiwan Index Futures (TXF)    
-- **Type**: Directional Alpha Model  
-- **Data Frequency**: 30-minute bars  
-- **Holding Duration**: 3 to 6 days
-- **Market Time**:
-- **Backtested Period:** From April 2007 to June 2025 *(In order to test if the strategy can survive under All-Weather conditions)*
+- **Strategy Name : Intermarket Trend Divergence Model**  
+- **Asset : Taiwan Index Futures (TXF)**    
+- **Type : Directional Alpha Model**  
+- **Data Frequency : 30-minute bars**  
+- **Holding Duration : 3 to 6 days**
+- **Market Time :**
+- **Backtested Period : From April 2007 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
 
 ⭐️ **Key Highlight:**
 **The reason why I didn't consider In sample/Out Sample type of test is to prove that the strategy is itself enough robust without changing any parameters throughout the whole dataset.**
