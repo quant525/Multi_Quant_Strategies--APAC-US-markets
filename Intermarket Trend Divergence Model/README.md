@@ -2,54 +2,18 @@
 
 ## 📌 Strategy Logic
 
-Synthetic Asset Construction:
-The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronic Futures (TE) and Financial Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven entry mechanism.
+The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronics Sector Index Futures (TE) and Financial Sector Index Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven mechanism.
 
-Synthetic Asset Construction:
-A synthetic ratio is created by dividing the price of Electronic Futures by Financial Futures (TE/TF), forming a relative strength index that reflects sector divergence.
-
-Beta Divergence Momentum (BDM): A structural breakout strategy trading Taiwan Index Futures based on the sector-relative momentum between Electronics and Financials, filtered by DMI and adjusted by macro timing and volatility control.
-
-By analyzing the TE/TF ratio and applying DMI-based breakout detection, it captures market momentum aligned with sector outperformance.  
-The strategy blends beta exposure with alpha insights and adjusts risk dynamically using ATR and macro event timing.  
-
-> **BDM** captures structural breakout opportunities in Taiwan's equity index by monitoring the relative momentum between Electronics and Financials, integrating trend filters and volatility-aware execution to improve robustness and adaptability.
-> 🎯 This combines **beta exposure (trend direction)** with **alpha generation (inter-sector relative value)** — resembling a breakout of a spread.
-
----
-
-### 💼 Capital & Risk Management
-
-- **Macro-Aware Position Sizing:**
-  - **Reduce exposure during full-year earnings announcement months.**
-  - **In other months**, use **ATR-based position sizing** for volatility adjustment.
-
-
-
-
-Risk & Capital Management:
-
-During annual earnings announcement months, the position size is reduced to manage macro-event risk.
 
 In other months, position sizing is dynamically adjusted using ATR for volatility-based exposure control.
 
-
-🧭 Strategy Type Classification:
-Directional Spread-Based Strategy
-
-Relative Strength + Breakout Momentum
-
-Sector Divergence Quant Strategy
-
-Volatility-Adjusted, Event-Aware Execution
-- 🔁 **Beta + Alpha Hybrid Model**
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
 ## 📌 Strategy Attributes
 
 - **Strategy Name : Intermarket Trend Divergence Model**  
 - **Asset : Taiwan Index Futures (TXF)**    
-- **Type : Directional Alpha Model**  
+- **Type : Directional Alpha Model (Relative Strength)**  
 - **Data Frequency : 30-minute bars**  
 - **Holding Duration : 3 to 6 days**
 - **Market Time :**
