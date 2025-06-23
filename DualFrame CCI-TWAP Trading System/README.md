@@ -5,15 +5,10 @@ The DualFrame CCI-TWAP System is designed to generate high-confidence directiona
 A directional, quantitative-filtered momentum strategy that integrates multi-horizon signal alignment (via CCI) with time-weighted price anchoring (TWAP) for noise reduction and trend validation.
 
 🚨 **Attention:**
-This repository summarizes the performance of a trading strategy applied to the Taiwan Index Futures (TXF) market.
-All results are based on real market data and reflect a strategy that has been both backtested and live traded for over a year. While different versions of the strategy have been deployed during live trading to meet institutional requirements, the core logic remains consistent. The version presented here reflects a personally preferred implementation, optimized for clarity and performance reporting.
-
-This repository presents the performance analysis of a trading strategy applied to Taiwan Index Futures (TXF),
-**based on real historical market data and validated through over a year of actual trading deployment.** Backtest coverage spans over 20 years, and the strategy has been live traded on TXF for more than one year. While different implementations have been used in production environments to satisfy institutional requirements, *the strategy's core logic remains unchanged.* **The version shown here is my personally preferred configuration**, selected for its clarity and transparency in performance representation.
+**This repository summarizes the performance of a trading strategy applied to the Taiwan Index Futures (TXF) market.
+All results are based on real historical market data. Backtest coverage spans over 20 years, and the strategy has been live traded on TXF for more than one year. While different versions of the strategy have been deployed during live trading to meet institutional requirements, the core logic remains unchanged. The version presented here reflects a personally preferred configuration, selected for its clarity and transparency in performance representation.**
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
-
-🌟 **Note:** The strategy has been live traded on TXF for over a year, with institutional variants deployed in production. This version reflects a personal implementation of the same underlying logic. 
 
 ## 📌 Strategy Attributes
 
