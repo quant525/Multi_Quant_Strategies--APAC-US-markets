@@ -11,13 +11,14 @@ This strategy is based on a Dynamic Bivariate Regression Model that captures evo
 - **Type:** Statistical Forecasting Model  
 - **Rolling Frequency:** 30-minute bars  
 - **Typical Holding Time:** 2 to 3 days
+- **Backtested Period:** From June 2001 to June 2025
 
 ## 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
-Key performance metrics include  (Backtested Period : From June 2001 to June 2025):
-- **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025)**
+Key performance metrics include :
+- **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
 - **CAGR (Annualized Return)** : 29.54%
 - **Maximum Drawdown** : -20.52%
 - **Profit Factor** : 1.48
