@@ -1,28 +1,18 @@
 # 📈 Dynamic Bivariate Regression Regime-Switching Trading Strategy
  
-This strategy is based on a Dynamic Bivariate Regression Model that captures evolving relationships between two market variables, using rolling 30-minute intervals to forecast short-term directional movement on the Taiwan Index Futures.
+## 📌 Strategy Logic
+
+The  Dynamic Bivariate Regression Model is a **hybrid Regime-Switching trading model** (Combining Trend-Following and Statistical Mean-Reversion) designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
+
+This regime-adaptive structure allows the strategy to benefit from both trend-following  and statistical mean-reversion regimes based on regression residuals and confidence intervals, improving robustness across different market conditions.
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 utill now)*
-
-
-## 📌 Strategy Logic:
-The  Dynamic Bivariate Regression Regime-Switching Model is a hybrid trading model(Combining Trend-Following and Statistical Mean-Reversion) designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
-
-When residuals exhibit autocorrelation (implying potential trend persistence), the strategy activates trend-following entries using the Directional Movement Index (DMI) to capture directional momentum and maximize potential trend profits.
-
-When residuals are not autocorrelated, indicating a more stationary or mean-reverting behavior, the strategy switches to a regression-based reversion approach:
-
-This adaptive structure allows the strategy to benefit from both trending and mean-reverting regimes, improving robustness across different market conditions.
-
-🧭 Strategy Type Classification:
-Hybrid Strategy
-
 
 ## 📌 Strategy Attributes
 
 - **Strategy Name: Dynamic Bivariate Regression Strategy**  
 - **Asset : Taiwan Index Futures (TXF)**  
-- **Type : Residual-Based Statistical Forecasting Model (Combining Trend-Following and Statistical Mean-Reversion)**  
+- **Type : Statistical Forecasting Model (Combining Trend-Following and Statistical Mean-Reversion)**  
 - **Rolling Frequency : 30-minute bars**  
 - **Typical Holding Time : 2 to 3 days**
 - **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
