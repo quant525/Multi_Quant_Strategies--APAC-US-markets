@@ -2,7 +2,7 @@
  
 This strategy is based on a Dynamic Bivariate Regression Model that captures evolving relationships between two market variables, using rolling 30-minute intervals to forecast short-term directional movement on the Taiwan Index Futures.
 
-*This README was automatically generated as part of a real-time strategy monitoring and reporting system.(Real-time strategy starts from March 2024 utill now)*
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 utill now)*
 
 ## 📌 Strategy Attributes
 
