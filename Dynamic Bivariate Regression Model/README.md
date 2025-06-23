@@ -10,7 +10,7 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 #### *Strategy Advantage*
 #### What distinguishes this strategy is not just its signal quality, but its dynamic adaptability. Rather than relying on rigid thresholds, the system continuously reevaluates market conditions to decide whether the current environment is statistically suitable for signal activation. This reverses the common approach: instead of forcing trades into static templates, the strategy listens to the market and only acts when the structural context aligns with its core logic.
 
-*This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 until now)*
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system. (The strategy has been live traded since March 2024 through to the present.)*
 
 ## 📌 Strategy Attributes
 
