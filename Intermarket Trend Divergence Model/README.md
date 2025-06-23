@@ -1,4 +1,4 @@
-# 📈 Intermarket Trend Divergence Trading Strategy
+# 📈 Beta-Alpha Intermarket Trend Divergence Trading Strategy
 
 ## 📌 Strategy Rationale
 
