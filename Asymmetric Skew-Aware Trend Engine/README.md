@@ -41,18 +41,83 @@ Key performance metrics include :
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-### 📊 Performance Ratios
+## 📊 Performance Ratios
 
-| Metric Description                                                                 | Value         |
-|------------------------------------------------------------------------------------|---------------|
-| **Upside Potential Ratio**                                                        | 61.8100       |
-| **Sharpe Ratio**                                                                  | 0.3042        |
-| **Annualized Sharpe Ratio**                                                       | 1.0537        |
-| **Sortino Ratio**                                                                 | 0.3582        |
-| **Fouse Ratio**                                                                   | 0.0068        |
-| **Calmar Ratio**                                                                  | 0.0232        |
-| **Sterling Ratio**                                                                | 0.0020        |
+| Ratio                            | Value       |
+|----------------------------------|-------------|
+| Upside Potential Ratio           | 126.45      |
+| Sharpe Ratio                     | 0.36        |
+| Annualized Sharpe Ratio          | 1.25        |
+| Sortino Ratio                    | 0.64        |
+| Calmar Ratio                     | 0.05        |
+| Sterling Ratio                   | 0.002       |
 ---
+### 📊 Profitability Ratios
+
+| Metric                             | All Trades   | Long Trades  | Short Trades  |
+|-----------------------------------|--------------|--------------|---------------|
+| Profit Factor                 | 1.66        | 1.67        | 1.64        |
+| Adjusted Profit Factor        | 1.53        | 1.50        | 1.44        |
+
+
+| Annual Return (%)             | 31.08       | 15.76       | 15.32       |
+| Monthly Return (%)            | 2.59        | 1.31        | 1.28        |
+
+
+
+| Net Profit / Max Drawdown (%)    | 4911.71     |
+| Adj. Net Profit / Max Strategy DD | 1365.43     |
+
+---
+## ⚙️ Strategy Performance Summary
+
+| Metric                         | All Trades  | Long Only   | Short Only  |
+|--------------------------------|-------------|-------------|-------------|
+| Net Profit (NTD)              | 7,190,739.5 | 3,645,400.5 | 3,545,339   |
+| Gross Profit                  | 18,163,542  | 9,089,353.5 | 9,074,188.5 |
+| Gross Loss                    | -10,972,802.5 | -5,443,953 | -5,528,849.5 |
+| Adjusted Net Profit           | 6,057,724.97 | 2,901,746.34 | 2,661,374.12 |
+
+| Win Rate (%)                  | 72.71       | 68.77       | 77.62       |
+| Total Trades                  | 1396        | 775         | 621         |
+
+| Max Drawdown (%)              | -10.49      | -10.30      | -20.21      |
+| Max Strategy Drawdown (NTD)   | -443,650    | -447,305    | -476,383.5  |
+
+
+---
+
+## ⏱️ Time Analysis
+
+| Metric                           | Value                         |
+|----------------------------------|-------------------------------|
+| Trading Period                   | 23 Years, 2 Months, 14 Days   |
+| Strategy Active Period           | 4 Years, 3 Months             |
+| Longest Flat Period              | 2 Months, 16 Days             |
+| Max Profit Date                  | 2015/08/21                    |
+| Max Drawdown Date                | 2021/02/22                    |
+
+---
+
+## 📈 Key Ratios
+
+| Metric | Value |
+|--------|-------|
+| Max Drawdown Efficiency (Net/Drawdown %) | 4911.71% |
+| Adjusted Net Profit / Max Strategy Drawdown % | 1365.43% |
+| Specific Profit Factor | 1.86 |
+| Adjusted Profit Factor | 1.53 |
+| Capital Required | 427,300 |
+| ROI on Account Size | 1,682.83% |
+| Slippage Paid | 449,000 |
+| Commission Paid | 0 |
+
+---
+
+
+
+> ⚙️ This performance is based on MultiCharts live position logs from 2001 to 2025, updated daily via GitHub Actions.
+
 ### 📊 Profitability Ratios
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
