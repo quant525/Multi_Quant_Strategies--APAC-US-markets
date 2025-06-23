@@ -18,7 +18,7 @@ This GitHub project monitors and visualizes the position changes for the strateg
 
 ## 📌 Strategy Overview
 
-This table provides a comprehensive summary of the trading strategy based on real data, covering both long and short trades.
+This table provides a comprehensive summary of the trading strategy performance based on real data, covering both long and short trades.
 
 Key performance metrics include **(Backtested Period : From April 2007 to June 2025)**:
 - **Sharpe Ratio** : **1.4671**
