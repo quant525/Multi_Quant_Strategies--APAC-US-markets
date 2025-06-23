@@ -7,11 +7,11 @@ This strategy is based on a Dynamic Bivariate Regression Model that captures evo
 ## 📌 Strategy Attributes
 
 - **Strategy Name:** Dynamic Bivariate Regression Strategy  
-- **Asset:** Taiwan Index Futures (TXF)  
-- **Type:** Statistical Forecasting Model  
-- **Rolling Frequency:** 30-minute bars  
-- **Typical Holding Time:** 2 to 3 days
-- **Backtested Period:** From June 2001 to June 2025 *(In order to test if the strategy can survive under All-weather conditions)*
+- **Asset : Taiwan Index Futures (TXF)**  
+- **Type : Statistical Forecasting Model**  
+- **Rolling Frequency : 30-minute bars**  
+- **Typical Holding Time : 2 to 3 days**
+- **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
 
 ⭐️ **Key Highlight:**
 **The reason why I didn't consider In sample/Out Sample type of test is to prove that the strategy is itself enough robust without changing any parameters throughout the whole dataset.**
