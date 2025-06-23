@@ -23,7 +23,7 @@ This table provides a comprehensive summary of the trading strategy based on liv
 
 Key performance metrics include :
 
-**Just wanna mentioned here, the data presented here desire to reflect the real and true performance numbers without any manipulation.**
+**Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
 - **Sharpe Ratio** : **1.64 (8 years backtested sharpe ratio)**
 - **CAGR (Annualized Return)** : 29.21% 
 - **Maximum Drawdown** : -8.98%
