@@ -1,6 +1,6 @@
 # 📈 Dynamic Bivariate Regression Regime-Switching Trading Strategy
 
-## 📌 Strategy Logic
+## 📌 Strategy Rationale
 
 The  Dynamic Bivariate Regression Model is a **Regime-Switching and hybrid model** (Combining Trend-Following and Statistical Mean-Reversion) designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
 
