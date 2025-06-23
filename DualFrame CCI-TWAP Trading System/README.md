@@ -1,4 +1,4 @@
-# 📈 DualFrame CCI-TWAP Trading System
+# 📈 DualFrame CCI-TWAP Trading Strategy
 
 ## 📌 Strategy Rationale
 The DualFrame CCI-TWAP System is designed to generate high-confidence directional signals through quantitative filtering of normalized price deviation metrics (CCI) across two temporal resolutions. A time-weighted average price (TWAP) component is used as a dynamic price anchor to regulate signal activation, enhancing noise suppression and trend alignment without reliance on conventional chart-based techniques.
