@@ -12,20 +12,6 @@ When residuals exhibit autocorrelation (implying potential trend persistence), t
 
 When residuals are not autocorrelated, indicating a more stationary or mean-reverting behavior, the strategy switches to a regression-based reversion approach:
 
-Entries are triggered when the actual price significantly deviates from the regression-predicted price, using confidence bands of the residual distribution to define reversion zones.
-
-Profit-taking logic:
-
-Long positions target the upper bound of the confidence interval.
-
-Short positions target the lower bound of the confidence interval.
-
-Stop or exit conditions:
-
-Long positions exit early if the predicted price begins to weaken relative to the actual price.
-
-Short positions exit early if the predicted price begins to strengthen relative to the actual price.
-
 This adaptive structure allows the strategy to benefit from both trending and mean-reverting regimes, improving robustness across different market conditions.
 
 🧭 Strategy Type Classification:
