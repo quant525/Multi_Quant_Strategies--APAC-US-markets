@@ -1,8 +1,19 @@
 # 📈 Intermarket Trend Divergence Trading Strategy
 
 ## 📌 Strategy Logic
-The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronic Futures (TE) and Financial Futures (TF) sectors.
 
+Synthetic Asset Construction:
+The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronic Futures (TE) and Financial Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven entry mechanism.
+
+Synthetic Asset Construction:
+A synthetic ratio is created by dividing the price of Electronic Futures by Financial Futures (TE/TF), forming a relative strength index that reflects sector divergence.
+
+Beta Divergence Momentum (BDM): A structural breakout strategy trading Taiwan Index Futures based on the sector-relative momentum between Electronics and Financials, filtered by DMI and adjusted by macro timing and volatility control.
+
+By analyzing the TE/TF ratio and applying DMI-based breakout detection, it captures market momentum aligned with sector outperformance.  
+The strategy blends beta exposure with alpha insights and adjusts risk dynamically using ATR and macro event timing.  
+
+> **BDM** captures structural breakout opportunities in Taiwan's equity index by monitoring the relative momentum between Electronics and Financials, integrating trend filters and volatility-aware execution to improve robustness and adaptability.
 > 🎯 This combines **beta exposure (trend direction)** with **alpha generation (inter-sector relative value)** — resembling a breakout of a spread.
 
 ---
@@ -13,10 +24,8 @@ The Beta Divergence Momentum (BDM) strategy is a directional trading model appli
   - **Reduce exposure during full-year earnings announcement months.**
   - **In other months**, use **ATR-based position sizing** for volatility adjustment.
 
-Synthetic Asset Construction:
-A synthetic ratio is created by dividing the price of Electronic Futures by Financial Futures (TE/TF), forming a relative strength index that reflects sector divergence.
 
-This approach conceptually blends beta directionality (market trend exposure) with an alpha insight (relative value spread between sectors), creating a structural divergence-driven entry mechanism.
+
 
 Risk & Capital Management:
 
@@ -24,31 +33,6 @@ During annual earnings announcement months, the position size is reduced to mana
 
 In other months, position sizing is dynamically adjusted using ATR for volatility-based exposure control.
 
-🔹 Optional One-Liner Summary (for README or Pitch Deck):
-Beta Divergence Momentum (BDM): A structural breakout strategy trading Taiwan Index Futures based on the sector-relative momentum between Electronics and Financials, filtered by DMI and adjusted by macro timing and volatility control.
-
-**Beta Divergence Momentum (BDM)** is a directional trading strategy for Taiwan Index Futures (TXF) that detects structural divergence between the Electronics and Financial sectors.  
-By analyzing the TE/TF ratio and applying DMI-based breakout detection, it captures market momentum aligned with sector outperformance.  
-The strategy blends beta exposure with alpha insights and adjusts risk dynamically using ATR and macro event timing.  
-Exits are triggered by monthly events, volatility thresholds, and profit/loss limits to ensure controlled execution.
-
-**Beta Divergence Momentum (BDM)** is a directional trading strategy for Taiwan Index Futures (TXF) that capitalizes on structural divergence between the Electronics Futures (TE) and Financial Futures (TF) sectors.
-
----
-
-
-### 🧭 Strategy Type
-
-- 🟢 **Directional Spread-Based Strategy**
-- 🔁 **Beta + Alpha Hybrid Model**
-- 🧠 **Sector Divergence Quant Strategy**
-- 📉 **Volatility-Aware Execution Logic**
-
----
-
-### ✨ Summary
-
-> **BDM** captures structural breakout opportunities in Taiwan's equity index by monitoring the relative momentum between Electronics and Financials, integrating trend filters and volatility-aware execution to improve robustness and adaptability.
 
 🧭 Strategy Type Classification:
 Directional Spread-Based Strategy
@@ -58,7 +42,7 @@ Relative Strength + Breakout Momentum
 Sector Divergence Quant Strategy
 
 Volatility-Adjusted, Event-Aware Execution
-
+- 🔁 **Beta + Alpha Hybrid Model**
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
 ## 📌 Strategy Attributes
