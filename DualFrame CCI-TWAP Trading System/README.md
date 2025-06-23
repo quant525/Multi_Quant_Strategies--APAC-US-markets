@@ -3,8 +3,21 @@
 The DualFrame CCI-TWAP System is designed to generate high-confidence directional signals through quantitative filtering of normalized price deviation metrics (CCI) across two temporal resolutions. A time-weighted average price (TWAP) component is used as a dynamic price anchor to regulate signal activation, enhancing noise suppression and trend alignment without reliance on conventional chart-based techniques.
 
 A directional, quantitative-filtered momentum strategy that integrates multi-horizon signal alignment (via CCI) with time-weighted price anchoring (TWAP) for noise reduction and trend validation.
+
 🚨 **Attention:**
+This repository summarizes the performance of a trading strategy applied to the Taiwan Index Futures (TXF) market.
+All results are based on real market data and reflect a strategy that has been both backtested and live traded for over a year. While different versions of the strategy have been deployed during live trading to meet institutional requirements, the core logic remains consistent. The version presented here reflects a personally preferred implementation, optimized for clarity and performance reporting.
+
+This repository presents the performance analysis of a trading strategy applied to Taiwan Index Futures (TXF),
+based on real historical market data and validated through over a year of actual trading deployment. While different code implementations have been used to comply with institutional requirements in production environments, the strategy's core logic remains unchanged. The version shown here is my personally preferred configuration, selected for its clarity and transparency in performance representation.
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
+
+This repository presents the performance analysis of a trading strategy applied to the Taiwan Index Futures (TXF) market.
+The strategy has been rigorously backtested over more than 20 years of historical market data and has also been live traded for over one year. While different implementations have been used in production to satisfy institutional requirements, all versions share the same core logic. The version shown here reflects a personally preferred configuration, selected for transparency and performance evaluation purposes.
+
+🌟 **Note:** The strategy has been live traded on TXF for over a year, with institutional variants deployed in production. This version reflects a personal implementation of the same underlying logic.
+
+🌟 **Note:** Backtest coverage spans over 20 years, and the strategy has been live traded on TXF for more than one year. The version in this repository is a personal implementation of the same core logic used in production environments.
 
 ## 📌 Strategy Attributes
 
