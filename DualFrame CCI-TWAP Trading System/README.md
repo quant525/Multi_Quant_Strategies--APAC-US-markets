@@ -21,7 +21,9 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 - **Backtested Period : From June 2017 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
 
 ⭐️ **Key Highlight:**
-**The reason why I didn't consider In sample/Out Sample type of test is to prove that the strategy is itself enough robust without changing any parameters throughout the whole dataset.**
+#### *Why Full-History Backtesting?*
+#### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
+#### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
 
 ## 📌 Strategy Overview
 
