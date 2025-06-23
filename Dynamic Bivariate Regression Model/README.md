@@ -2,32 +2,38 @@
  
 This strategy is based on a Dynamic Bivariate Regression Model that captures evolving relationships between two market variables, using rolling 30-minute intervals to forecast short-term directional movement on the Taiwan Index Futures.
 
-*This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 utill now)*
 
 ## 📌 Strategy Attributes
 
 - **Strategy Name:** Dynamic Bivariate Regression Strategy  
-- **Asset:** Taiwan Index Futures (TXF)  
-- **Type:** Statistical Forecasting Model  
-- **Rolling Frequency:** 30-minute bars  
-- **Typical Holding Time:** 2 to 3 days
+- **Asset : Taiwan Index Futures (TXF)**  
+- **Type : Statistical Forecasting Model**  
+- **Rolling Frequency : 30-minute bars**  
+- **Typical Holding Time : 2 to 3 days**
+- **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
 
-## 📌 Overview
+⭐️ **Key Highlight:**
+**The reason why I didn't consider In sample/Out Sample type of test is to prove that the strategy is itself enough robust without changing any parameters throughout the whole dataset.**
+
+## 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
-Key performance metrics include:
-- **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025)**
+Key performance metrics include :
+
+🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
+- **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
 - **CAGR (Annualized Return)** : 29.54%
 - **Maximum Drawdown** : -20.52%
 - **Profit Factor** : 1.48
 - **Win Rate (%)**: 56.41%
 
-## 📌 Performance Report (Backtested Period : From June 2001 to June 2025)
+## 📌 Strategy Performance Report (Backtested Period : From June 2001 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-### Performance Ratios
+### 📊 Performance Ratios
 
 | Metric Description                                                                 | Value         |
 |------------------------------------------------------------------------------------|---------------|
@@ -38,8 +44,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Fouse Ratio**                                                                   | 0.0068        |
 | **Calmar Ratio**                                                                  | 0.0232        |
 | **Sterling Ratio**                                                                | 0.0020        |
-
-### Efficiency & Statistics
+---
+### 📊 Profitability Ratios
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
@@ -51,7 +57,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Commission Paid**               | 0            | 0            | 0             |
 | **Unrealized P&L**                | 32,800       | n/a          | 32,800        |
 
-### Annual and Monthly Return Metrics
+### 📊 Annual and Monthly Return Metrics
 
 | Metric                             | Value        |
 |-----------------------------------|--------------|
@@ -60,8 +66,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Average Monthly Return ($)**    | 49,323.18    |
 | **Standard Deviation of Monthly Returns** | 165,705.49 |
 | **Buy-and-Hold Return ($)**       | 6,762,849.05 |
-
-### Risk Metrics
+---
+### 📊 Risk Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
@@ -70,8 +76,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Max Closed Trade Loss**         | -1,799,100   | -1,093,100   | -885,500      |
 | **Max Closed Trade Loss (%)**     | -18.68%      | -29.52%      | -14.85%       |
 | **Return After Drawdown**         | 6.66         | 7.67         | 3.99          |
-
-### Trade Summary
+---
+### 📊 Trade Summary
 
 - **Total Number of Trades:** 2,005  
   - Long: 1,006  
@@ -80,8 +86,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
   - All: 56.41%  
   - Long: 57.16%  
   - Short: 55.66%
-
-### Return-to-Drawdown Ratios
+---
+### 📊 Return-to-Drawdown Ratios
 
 | Ratio Description                                                                                  | Value         |
 |----------------------------------------------------------------------------------------------------|---------------|
@@ -94,8 +100,9 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net Profit / Max Loss (%)                                                                 | 2410.26       |
 | Adjusted Net Profit / Max Closed Trade Drawdown (%)                                                | 1908.22       |
 | Adjusted Net Profit / Max Strategy Drawdown (%)                                                    | 557.81        |
+---
 
-### Core Metrics
+### 📊 General Performance Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
@@ -112,10 +119,11 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Account Return (%)**            | 790.48%      | 833.22%      | 577.49%       |
 | **Return on Initial Capital (%)** | 711.08%      | 455.39%      | 255.69%       |
 
+---
 ## 📈 NAV (Since June 2001)
 
 ![NAV_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/71c4f968-4615-4fcf-8514-9f48c271443d)
-
+---
 ## 📈 Equity Curve (Since June 2001)
 
 ![EquityCurve_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/20feb853-ac5f-4681-8eef-bd6b5db079e2)
