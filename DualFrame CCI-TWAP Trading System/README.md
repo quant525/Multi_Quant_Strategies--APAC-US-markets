@@ -8,12 +8,12 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 
 ## 📌 Strategy Attributes
 
-- **Strategy Name:** DualFrame CCI-TWAP System  
-- **Asset:** Taiwan Index Futures (TXF)    
-- **Type:** Momentum-Based Trend-Following  
-- **Data Frequency:** 10-minute bars  
-- **Holding Duration:** 1.5 to 3 days
-- **Backtested Period:** From June 2017 to June 2025 *(In order to test if the strategy can survive under All-Weather conditions)*
+- **Strategy Name : DualFrame CCI-TWAP System**  
+- **Asset : Taiwan Index Futures (TXF)**    
+- **Type : Momentum-Based Trend-Following**  
+- **Data Frequency : 10-minute bars**  
+- **Holding Duration : 1.5 to 3 days**
+- **Backtested Period : From June 2017 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
 
 ⭐️ **Key Highlight:**
 **The reason why I didn't consider In sample/Out Sample type of test is to prove that the strategy is itself enough robust without changing any parameters throughout the whole dataset.**
