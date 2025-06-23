@@ -22,6 +22,7 @@ This repository presents the performance analysis of a trading strategy applied 
 - **Type : Momentum-Based Trend-Following**  
 - **Data Frequency : 10-minute bars**  
 - **Holding Duration : 1.5 to 3 days**
+- **Max Contracts Held : 2 contracts** 
 - **Backtested Period : From June 2017 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
 
 ⭐️ **Key Highlight:**
