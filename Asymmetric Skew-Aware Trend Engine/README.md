@@ -1,10 +1,8 @@
-# 📈 Dynamic Bivariate Regression Regime-Switching Trading Strategy
+# 📈 Asymmetric Skew-Aware Trend Engine
 
 ## 📌 Strategy Rationale
 
-The  Dynamic Bivariate Regression Strategy is a **Regime-Switching and hybrid model (Combining Trend-Following and Statistical Mean-Reversion)** designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
-
-This regime-adaptive structure allows the strategy to benefit from both trend-following  and statistical mean-reversion regimes based on regression residuals and confidence intervals, improving robustness across different market conditions.
+**The Asymmetric Skew-Aware Trend Engine Strategy is a swing trading model applied to the Hang Seng Index Futures, integrating multi-layered momentum signals with volatility and skew-adjusted capital scaling.**
 
 ⭐️ **Key Highlight:**
 #### *Strategy Advantage*
@@ -14,10 +12,10 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 
 ## 📌 Strategy Attributes
 
-- **Strategy Name: Dynamic Bivariate Regression Strategy**  
-- **Asset : Taiwan Index Futures (TXF)**  
-- **Type : Statistical Forecasting Model (Combining Trend-Following and Statistical Mean-Reversion)**  
-- **Rolling Frequency : 30-minute bars**  
+- **Strategy Name: Asymmetric Skew-Aware Trend Engine**  
+- **Asset : Hang Seng Index Futures (HSI)**  
+- **Type : Multi-factor Momentum with Volatility Structure Filtering**  
+- **Rolling Frequency : 15-minute bars**  
 - **Typical Holding Time : 2 to 3 days**
 - **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
 
