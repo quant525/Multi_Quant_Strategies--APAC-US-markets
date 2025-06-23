@@ -69,6 +69,54 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Slippage Paid** | 1,935,500 |
 | **Commission Paid** | 0 |
 
+---
+### 📊 Annual and Monthly Return Metrics
+
+| Metric                             | Value        |
+|-----------------------------------|--------------|
+| **Annualized Return (%)**          | **29.21%** |
+| **Monthly Return (%)**             | 2.43% |
+| **Buy-and-Hold Return**            | 2,177,535 |
+| **Average Monthly Return**         | 48,203 |
+| **Monthly Return StdDev**          | 112,044 |
+
+---
+### 📊 Risk Metrics
+
+| Metric      | All Trades   | Long Trades  | Short Trades  |
+|-----------|--------------|--------------|---------------|
+| **Max Drawdown** | -577,400 | -447,500 | -293,000 |
+| **Max Drawdown (%)** | **-8.98%** | -10.29% | -8.04% |
+| **Max Trade Loss** | -551,600 | -390,400 | -234,600 |
+| **Max Trade Loss (%)** | -8.59% | -9.06% | -6.46% |
+
+---
+### 📊 Trade Summary
+
+- **Total Number of Trades:** 1,776 
+  - Long: 1,287 
+  - Short: 489 
+- **Win Rate:**  
+  - All: 44.82%  
+  - Long: 46.78%  
+  - Short: 39.67%
+---
+### 📊 Return-to-Drawdown Ratios
+
+| Ratio Description  | Value |
+|--------|-------|
+| Net Profit / Max Loss (%) | 4,620.26% |
+| Net Profit / Max Trade DD (%) | 4,369.81% |
+| Net Profit / Max Strategy DD (%) | 809.79% |
+| Specific Net / Max Loss (%) | 2,483.89% |
+| Specific Net / Max Trade DD (%) | 2,349.25% |
+| Specific Net / Max Strategy DD (%) | 435.35% |
+| Adjusted Net / Max Loss (%) | 3,713.45% |
+| Adjusted Net / Max Trade DD (%) | 3,512.16% |
+| Adjusted Net / Max Strategy DD (%) | 650.85% |
+
+---
+
 ### 📊 General Performance Metrics
 
 | Metric | All Trades | Long Trades | Short Trades |
@@ -77,12 +125,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Adjusted Net Profit** | 3,758,009 | 1,823,471 | 1,534,731 |
 | **Gross Profit** | 15,804,600 | 10,152,200 | 5,652,400 |
 | **Gross Loss** | -11,128,900 | -7,621,600 | -3,507,300 |
-| **Max Drawdown** | -577,400 | -447,500 | -293,000 |
-| **Max Drawdown (%)** | **-8.98%** | -10.29% | -8.04% |
-| **Max Trade Loss** | -551,600 | -390,400 | -234,600 |
-| **Max Trade Loss (%)** | -8.59% | -9.06% | -6.46% |
-| **Win Rate** | 44.82% | 46.78% | 39.67% |
-| **Total Trades** | 1,776 | 1,287 | 489 |
+
 | **Max Contracts Held** | **2** | 2 | 2 |
 
 ---
@@ -94,27 +137,12 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Required Capital** | 551,600 |
 | **Account Return (%)** | 847.66% |
 | **Return on Initial Capital (%)** | 233.79% |
-| **Annualized Return (%)** | **29.21%** |
-| **Monthly Return (%)** | 2.43% |
-| **Buy-and-Hold Return** | 2,177,535 |
-| **Average Monthly Return** | 48,203 |
-| **Monthly Return StdDev** | 112,044 |
+
 
 ---
 
 ## 🧮 Return-to-Drawdown Metrics
 
-| Metric | Value |
-|--------|-------|
-| Net Profit / Max Loss (%) | 4,620.26% |
-| Net Profit / Max Trade DD (%) | 4,369.81% |
-| Net Profit / Max Strategy DD (%) | 809.79% |
-| Specific Net / Max Loss (%) | 2,483.89% |
-| Specific Net / Max Trade DD (%) | 2,349.25% |
-| Specific Net / Max Strategy DD (%) | 435.35% |
-| Adjusted Net / Max Loss (%) | 3,713.45% |
-| Adjusted Net / Max Trade DD (%) | 3,512.16% |
-| Adjusted Net / Max Strategy DD (%) | 650.85% |
 
 ---
 ## Summary Statistics
