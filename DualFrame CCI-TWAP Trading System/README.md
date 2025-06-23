@@ -85,7 +85,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Required Capital** | 551,600 |
 | **Account Return (%)** | 847.66% |
 | **Return on Initial Capital (%)** | 233.79% |
-| **Annualized Return (%)** | 29.21% |
+| **Annualized Return (%)** | **29.21%** |
 | **Monthly Return (%)** | 2.43% |
 | **Buy-and-Hold Return** | 2,177,535 |
 | **Average Monthly Return** | 48,203 |
