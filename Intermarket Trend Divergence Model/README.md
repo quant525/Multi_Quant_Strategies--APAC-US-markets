@@ -21,7 +21,9 @@ This GitHub project monitors and visualizes the position changes for the strateg
 
 This table provides a comprehensive summary of the trading strategy performance based on real data, covering both long and short trades.
 
-Key performance metrics include **(Backtested Period : From April 2007 to June 2025)**:
+Key performance metrics include :
+
+🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
 - **Sharpe Ratio** : **1.4671**
 - **CAGR (Annualized Return)** : **16.16%**
 - **Maximum Drawdown** : -13.39%
