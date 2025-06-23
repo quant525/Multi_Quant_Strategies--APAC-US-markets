@@ -3,7 +3,7 @@
 The DualFrame CCI-TWAP System is designed to generate high-confidence directional signals through quantitative filtering of normalized price deviation metrics (CCI) across two temporal resolutions. A time-weighted average price (TWAP) component is used as a dynamic price anchor to regulate signal activation, enhancing noise suppression and trend alignment without reliance on conventional chart-based techniques.
 
 A directional, quantitative-filtered momentum strategy that integrates multi-horizon signal alignment (via CCI) with time-weighted price anchoring (TWAP) for noise reduction and trend validation.
-
+🚨 **Attention:**
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
 ## 📌 Strategy Attributes
@@ -15,6 +15,7 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 - **Holding Duration:** 1.5 to 3 days
 - **Backtested Period:** From June 2017 to June 2025 *(In order to test if the strategy can survive under All-Weather conditions)*
 
+⭐️ **Key Highlight:**
 *The reason why I didn't consider In sample/Out Sample type of test is to prove that the strategy is itself enough robust without changing any parameters throughout the whole dataset.
 
 ## 📌 Strategy Overview
@@ -23,7 +24,7 @@ This table provides a comprehensive summary of the trading strategy based on liv
 
 Key performance metrics include :
 
-**Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
+🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
 - **Sharpe Ratio** : **1.64 (8 years backtested sharpe ratio)**
 - **CAGR (Annualized Return)** : 29.21% 
 - **Maximum Drawdown** : -8.98%
