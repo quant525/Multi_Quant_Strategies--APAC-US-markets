@@ -11,8 +11,8 @@ This GitHub project monitors and visualizes the position changes for the strateg
 - **Type**: Directional Alpha Model  
 - **Data Frequency**: 30-minute bars  
 - **Holding Duration**: 3 to 6 days
-- **Backtested Period:** From April 2007 to June 2025 *(In order to test if the strategy can survive under All-weather conditions)*
-- 
+- **Backtested Period:** From April 2007 to June 2025 *(In order to test if the strategy can survive under All-Weather conditions)*
+
 ## 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
