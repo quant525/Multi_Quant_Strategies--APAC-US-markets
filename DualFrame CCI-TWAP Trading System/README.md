@@ -1,12 +1,12 @@
 # 📈 DualFrame CCI-TWAP Trading Strategy
 
 ## 📌 Strategy Rationale
-The DualFrame CCI-TWAP System is designed to generate high-confidence directional signals through quantitative filtering of normalized price deviation metrics (CCI) across two temporal resolutions. A time-weighted average price (TWAP) component is used as a dynamic price anchor to regulate signal activation, enhancing noise suppression and trend alignment without reliance on conventional chart-based techniques.
+**The DualFrame CCI-TWAP System is designed to generate high-confidence directional signals through quantitative filtering of normalized price deviation metrics (CCI) across two temporal resolutions. A time-weighted average price (TWAP) component is used as a dynamic price anchor to regulate signal activation, enhancing noise suppression and trend alignment without reliance on conventional chart-based techniques.**
 
 A directional, quantitative-filtered momentum strategy that integrates multi-horizon signal alignment (via CCI) with time-weighted price anchoring (TWAP) for noise reduction and trend validation.
 
 🌟 **Note:** 
-**All results are based on real historical market data. Backtest coverage spans over 20 years, and the strategy has been live traded on TXF for more than one year. While different versions of the strategy have been deployed during live trading to meet institutional requirements, the core logic remains unchanged. The version presented here reflects a personally preferred configuration, selected for its clarity and transparency in performance representation.**
+*All results are based on real historical market data. Backtest coverage spans over 20 years, and the strategy has been live traded on TXF for more than one year. While different versions of the strategy have been deployed during live trading to meet institutional requirements, the core logic remains unchanged. The version presented here reflects a personally preferred configuration, selected for its clarity and transparency in performance representation.*
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
