@@ -1,77 +1,11 @@
 # 📈 Intermarket Trend Divergence Trading Strategy
 
-This GitHub project monitors and visualizes the position changes for the strategy: **Cross-Market Trend Divergence Model**, trading **TAIEX Futures**.
-
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
-🧠 Strategy Name:
-Beta Divergence Momentum (BDM)
 或簡化為：BetaSplit
 
-📘 Strategy Description (English):
+## 📘 Strategy Logic:
 The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronic Futures (TE) and Financial Futures (TF) sectors.
-
-Synthetic Asset Construction:
-A synthetic ratio is created by dividing the price of Electronic Futures by Financial Futures (TE/TF), forming a relative strength index that reflects sector divergence.
-
-Directional Signal Logic:
-The strategy applies the Directional Movement Index (DMI) on the TE/TF ratio to measure breakout momentum:
-
-Long TXF when the synthetic ratio breaks upward (TE outperforming TF with strong DMI momentum).
-
-Short TXF when the ratio breaks downward (TF outperforming TE with strong DMI momentum).
-
-This approach conceptually blends beta directionality (market trend exposure) with an alpha insight (relative value spread between sectors), creating a structural divergence-driven entry mechanism.
-
-Risk & Capital Management:
-
-During annual earnings announcement months, the position size is reduced to manage macro-event risk.
-
-In other months, position sizing is dynamically adjusted using ATR (Average True Range) for volatility-based exposure control.
-
-Forced exits occur:
-
-On settlement days and month-ends.
-
-On predefined stop-loss or take-profit thresholds.
-
-🧭 Strategy Type Classification:
-Directional Spread-Based Strategy
-
-Relative Strength + Breakout Momentum
-
-Sector Divergence Quant Strategy
-
-Volatility-Adjusted, Event-Aware Execution
-
-🔹 Optional One-Liner Summary (for README or Pitch Deck):
-Beta Divergence Momentum (BDM): A structural breakout strategy trading Taiwan Index Futures based on the sector-relative momentum between Electronics and Financials, filtered by DMI and adjusted by macro timing and volatility control.
-
-**Beta Divergence Momentum (BDM)** is a directional trading strategy for Taiwan Index Futures (TXF) that detects structural divergence between the Electronics and Financial sectors.  
-By analyzing the TE/TF ratio and applying DMI-based breakout detection, it captures market momentum aligned with sector outperformance.  
-The strategy blends beta exposure with alpha insights and adjusts risk dynamically using ATR and macro event timing.  
-Exits are triggered by monthly events, volatility thresholds, and profit/loss limits to ensure controlled execution.
-
-## 📌 Strategy Overview: Beta Divergence Momentum (BDM)
-
-**Beta Divergence Momentum (BDM)** is a directional trading strategy for Taiwan Index Futures (TXF) that capitalizes on structural divergence between the Electronics Futures (TE) and Financial Futures (TF) sectors.
-
----
-
-### 🔧 Core Logic
-
-#### 🧪 Synthetic Asset Construction
-- Construct a synthetic asset by dividing **TE (Electronics Futures)** by **TF (Financial Futures)** → `Ratio = TE / TF`
-- This ratio represents **sector-relative strength**, serving as the core signal input.
-
-#### 📈 Signal Generation (Directional Entry)
-- Apply **Directional Movement Index (DMI)** on the TE/TF ratio.
-- **Long TXF** when:
-  - TE/TF ratio breaks upward.
-  - DMI confirms breakout strength.
-- **Short TXF** when:
-  - TE/TF ratio breaks downward.
-  - DMI confirms downward momentum.
 
 > 🎯 This combines **beta exposure (trend direction)** with **alpha generation (inter-sector relative value)** — resembling a breakout of a spread.
 
@@ -82,12 +16,30 @@ Exits are triggered by monthly events, volatility thresholds, and profit/loss li
 - **Macro-Aware Position Sizing:**
   - **Reduce exposure during full-year earnings announcement months.**
   - **In other months**, use **ATR-based position sizing** for volatility adjustment.
-  
-- **Exit Conditions:**
-  - **Settlement days** and **month-end:** mandatory exit.
-  - **Stop-loss / take-profit** thresholds for risk containment.
+
+Synthetic Asset Construction:
+A synthetic ratio is created by dividing the price of Electronic Futures by Financial Futures (TE/TF), forming a relative strength index that reflects sector divergence.
+
+This approach conceptually blends beta directionality (market trend exposure) with an alpha insight (relative value spread between sectors), creating a structural divergence-driven entry mechanism.
+
+Risk & Capital Management:
+
+During annual earnings announcement months, the position size is reduced to manage macro-event risk.
+
+In other months, position sizing is dynamically adjusted using ATR for volatility-based exposure control.
+
+🔹 Optional One-Liner Summary (for README or Pitch Deck):
+Beta Divergence Momentum (BDM): A structural breakout strategy trading Taiwan Index Futures based on the sector-relative momentum between Electronics and Financials, filtered by DMI and adjusted by macro timing and volatility control.
+
+**Beta Divergence Momentum (BDM)** is a directional trading strategy for Taiwan Index Futures (TXF) that detects structural divergence between the Electronics and Financial sectors.  
+By analyzing the TE/TF ratio and applying DMI-based breakout detection, it captures market momentum aligned with sector outperformance.  
+The strategy blends beta exposure with alpha insights and adjusts risk dynamically using ATR and macro event timing.  
+Exits are triggered by monthly events, volatility thresholds, and profit/loss limits to ensure controlled execution.
+
+**Beta Divergence Momentum (BDM)** is a directional trading strategy for Taiwan Index Futures (TXF) that capitalizes on structural divergence between the Electronics Futures (TE) and Financial Futures (TF) sectors.
 
 ---
+
 
 ### 🧭 Strategy Type
 
@@ -102,6 +54,14 @@ Exits are triggered by monthly events, volatility thresholds, and profit/loss li
 
 > **BDM** captures structural breakout opportunities in Taiwan's equity index by monitoring the relative momentum between Electronics and Financials, integrating trend filters and volatility-aware execution to improve robustness and adaptability.
 
+🧭 Strategy Type Classification:
+Directional Spread-Based Strategy
+
+Relative Strength + Breakout Momentum
+
+Sector Divergence Quant Strategy
+
+Volatility-Adjusted, Event-Aware Execution
 
 ## 📌 Strategy Attributes
 
