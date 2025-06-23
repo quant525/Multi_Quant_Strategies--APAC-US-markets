@@ -1,7 +1,5 @@
 # 📈 Intermarket Trend Divergence Trading Strategy
 
-*This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
-
 或簡化為：BetaSplit
 
 ## 📘 Strategy Logic:
@@ -62,6 +60,8 @@ Relative Strength + Breakout Momentum
 Sector Divergence Quant Strategy
 
 Volatility-Adjusted, Event-Aware Execution
+
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
 ## 📌 Strategy Attributes
 
