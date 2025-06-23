@@ -1,4 +1,4 @@
-# 📈 Intermarket Trend Divergence Trading Strategy
+# 📈 Beta-Alpha Intermarket Trend Divergence Trading Strategy
 
 ## 📌 Strategy Rationale
 
@@ -33,7 +33,7 @@ Key performance metrics include :
 
 🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
 - **Sharpe Ratio** : **1.4671**
-- **CAGR (Annualized Return)** : **16.16%**
+- **Annual Return** : **16.16%**
 - **Maximum Drawdown** : -13.39%
 - **Profit Factor** : ***2.91***
 - **Win Rate (%)**: ***78.57%***

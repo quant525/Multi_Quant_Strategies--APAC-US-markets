@@ -1,4 +1,4 @@
-# 📈 DualFrame CCI-TWAP Trading Strategy
+# 📈 DualFrame CCI-TWAP Trading System
 
 ## 📌 Strategy Rationale
 **The DualFrame CCI-TWAP System is designed to generate high-confidence directional signals through quantitative filtering of normalized price deviation metrics (CCI) across two temporal resolutions. A time-weighted average price (TWAP) component is used as a dynamic price anchor to regulate signal activation, enhancing noise suppression and trend alignment without reliance on conventional chart-based techniques.**
@@ -33,7 +33,7 @@ Key performance metrics include :
 
 🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
 - **Sharpe Ratio : 1.64 (8 years backtested sharpe ratio)**
-- **CAGR (Annualized Return) : 29.21%** 
+- **Annual Return : 29.21%** 
 - **Maximum Drawdown : -8.98%**
 - **Profit Factor : 1.42**
 - **Win Rate (%) : 44.82%**
