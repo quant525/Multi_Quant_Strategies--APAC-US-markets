@@ -1,65 +1,12 @@
 # 📈 Intermarket Trend Divergence Trading Strategy
 
-或簡化為：BetaSplit
+## 📌 Strategy Rationale
 
-## 📘 Strategy Logic:
-The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronic Futures (TE) and Financial Futures (TF) sectors.
-
-> 🎯 This combines **beta exposure (trend direction)** with **alpha generation (inter-sector relative value)** — resembling a breakout of a spread.
-
----
-
-### 💼 Capital & Risk Management
-
-- **Macro-Aware Position Sizing:**
-  - **Reduce exposure during full-year earnings announcement months.**
-  - **In other months**, use **ATR-based position sizing** for volatility adjustment.
-
-Synthetic Asset Construction:
-A synthetic ratio is created by dividing the price of Electronic Futures by Financial Futures (TE/TF), forming a relative strength index that reflects sector divergence.
-
-This approach conceptually blends beta directionality (market trend exposure) with an alpha insight (relative value spread between sectors), creating a structural divergence-driven entry mechanism.
-
-Risk & Capital Management:
-
-During annual earnings announcement months, the position size is reduced to manage macro-event risk.
-
-In other months, position sizing is dynamically adjusted using ATR for volatility-based exposure control.
-
-🔹 Optional One-Liner Summary (for README or Pitch Deck):
-Beta Divergence Momentum (BDM): A structural breakout strategy trading Taiwan Index Futures based on the sector-relative momentum between Electronics and Financials, filtered by DMI and adjusted by macro timing and volatility control.
-
-**Beta Divergence Momentum (BDM)** is a directional trading strategy for Taiwan Index Futures (TXF) that detects structural divergence between the Electronics and Financial sectors.  
-By analyzing the TE/TF ratio and applying DMI-based breakout detection, it captures market momentum aligned with sector outperformance.  
-The strategy blends beta exposure with alpha insights and adjusts risk dynamically using ATR and macro event timing.  
-Exits are triggered by monthly events, volatility thresholds, and profit/loss limits to ensure controlled execution.
-
-**Beta Divergence Momentum (BDM)** is a directional trading strategy for Taiwan Index Futures (TXF) that capitalizes on structural divergence between the Electronics Futures (TE) and Financial Futures (TF) sectors.
-
----
+**The Intermarket Trend Divergence strategy is a directional momentum model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronics Sector Index Futures (TE) and Financial Sector Index Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven mechanism. Position sizing is dynamically adjusted using ATR for volatility-based exposure control.**
 
 
-### 🧭 Strategy Type
-
-- 🟢 **Directional Spread-Based Strategy**
-- 🔁 **Beta + Alpha Hybrid Model**
-- 🧠 **Sector Divergence Quant Strategy**
-- 📉 **Volatility-Aware Execution Logic**
-
----
-
-### ✨ Summary
-
-> **BDM** captures structural breakout opportunities in Taiwan's equity index by monitoring the relative momentum between Electronics and Financials, integrating trend filters and volatility-aware execution to improve robustness and adaptability.
-
-🧭 Strategy Type Classification:
-Directional Spread-Based Strategy
-
-Relative Strength + Breakout Momentum
-
-Sector Divergence Quant Strategy
-
-Volatility-Adjusted, Event-Aware Execution
+🌟 **Note:** 
+*All results are based on real historical market data. Backtest coverage spans over 18 years, and *the strategy has been live traded on TXF for more than one year*. While different versions of the strategy have been deployed during live trading to meet institutional requirements, the core logic remains unchanged. The version presented here reflects a personally preferred configuration, selected for its clarity and transparency in performance representation.*
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
@@ -67,14 +14,16 @@ Volatility-Adjusted, Event-Aware Execution
 
 - **Strategy Name : Intermarket Trend Divergence Model**  
 - **Asset : Taiwan Index Futures (TXF)**    
-- **Type : Directional Alpha Model**  
+- **Type : Directional Alpha Model (Relative Strength)**  
 - **Data Frequency : 30-minute bars**  
 - **Holding Duration : 3 to 6 days**
 - **Market Time :**
 - **Backtested Period : From April 2007 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
 
 ⭐️ **Key Highlight:**
-**The reason why I didn't consider In sample/Out Sample type of test is to prove that the strategy is itself enough robust without changing any parameters throughout the whole dataset.**
+#### *Why Full-History Backtesting?*
+#### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
+#### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
 
 ## 📌 Strategy Overview
 
