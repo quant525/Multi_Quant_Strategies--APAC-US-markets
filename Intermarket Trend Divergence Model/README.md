@@ -2,10 +2,11 @@
 
 ## 📌 Strategy Logic
 
-The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronics Sector Index Futures (TE) and Financial Sector Index Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven mechanism.
+The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronics Sector Index Futures (TE) and Financial Sector Index Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven mechanism. Position sizing is dynamically adjusted using ATR for volatility-based exposure control.
 
 
-In other months, position sizing is dynamically adjusted using ATR for volatility-based exposure control.
+🌟 **Note:** 
+**All results are based on real historical market data. Backtest coverage spans over 18 years, and the strategy has been live traded on TXF for more than one year. While different versions of the strategy have been deployed during live trading to meet institutional requirements, the core logic remains unchanged. The version presented here reflects a personally preferred configuration, selected for its clarity and transparency in performance representation.**
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
