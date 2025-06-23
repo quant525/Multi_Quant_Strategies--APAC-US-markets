@@ -101,7 +101,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net Profit / Max Closed Trade Drawdown (%)                                                | 1908.22       |
 | Adjusted Net Profit / Max Strategy Drawdown (%)                                                    | 557.81        |
 ---
-### 📊 Core Metrics
+
+### 📊 General Performance Metrics
 
 | Metric                             | All Trades   | Long Trades  | Short Trades  |
 |-----------------------------------|--------------|--------------|---------------|
@@ -117,6 +118,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Required Capital**              | 1,799,100    | 1,093,100    | 885,500       |
 | **Account Return (%)**            | 790.48%      | 833.22%      | 577.49%       |
 | **Return on Initial Capital (%)** | 711.08%      | 455.39%      | 255.69%       |
+
 ---
 ## 📈 NAV (Since June 2001)
 
