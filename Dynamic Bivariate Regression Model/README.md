@@ -28,7 +28,7 @@ Key performance metrics include :
 
 🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
 - **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
-- **CAGR (Annualized Return)** : 29.54%
+- **Annualized Return** : 29.54%
 - **Maximum Drawdown** : -20.52%
 - **Profit Factor** : 1.48
 - **Win Rate (%)**: 56.41%
