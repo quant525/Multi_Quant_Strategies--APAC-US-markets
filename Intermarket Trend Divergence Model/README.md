@@ -2,7 +2,7 @@
 
 ## 📌 Strategy Rationale
 
-**The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronics Sector Index Futures (TE) and Financial Sector Index Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven mechanism. Position sizing is dynamically adjusted using ATR for volatility-based exposure control.**
+**The Intermarket Trend Divergence strategy is a directional momentum model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronics Sector Index Futures (TE) and Financial Sector Index Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven mechanism. Position sizing is dynamically adjusted using ATR for volatility-based exposure control.**
 
 
 🌟 **Note:** 
