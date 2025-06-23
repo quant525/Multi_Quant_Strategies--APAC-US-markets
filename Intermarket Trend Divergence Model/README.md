@@ -1,8 +1,6 @@
 # 📈 Intermarket Trend Divergence Trading Strategy
 
-或簡化為：BetaSplit
-
-## 📘 Strategy Logic:
+## 📌 Strategy Logic
 The Beta Divergence Momentum (BDM) strategy is a directional trading model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronic Futures (TE) and Financial Futures (TF) sectors.
 
 > 🎯 This combines **beta exposure (trend direction)** with **alpha generation (inter-sector relative value)** — resembling a breakout of a spread.
