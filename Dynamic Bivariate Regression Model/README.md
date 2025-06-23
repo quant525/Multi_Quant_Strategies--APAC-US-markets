@@ -2,9 +2,13 @@
 
 ## 📌 Strategy Rationale
 
-The  Dynamic Bivariate Regression Model is a **Regime-Switching and hybrid model** (Combining Trend-Following and Statistical Mean-Reversion) designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
+The  Dynamic Bivariate Regression Model is a **Regime-Switching and hybrid model (Combining Trend-Following and Statistical Mean-Reversion)** designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
 
 This regime-adaptive structure allows the strategy to benefit from both trend-following  and statistical mean-reversion regimes based on regression residuals and confidence intervals, improving robustness across different market conditions.
+
+⭐️ **Key Highlight:**
+#### *Strategy Advantage*
+#### What distinguishes this strategy is not just its signal quality, but its dynamic adaptability. Rather than relying on rigid thresholds, the system continuously reevaluates market conditions to decide whether the current environment is statistically suitable for signal activation. This reverses the common approach: instead of forcing trades into static templates, the strategy listens to the market and only acts when the structural context aligns with its core logic.
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 utill now)*
 
@@ -18,10 +22,9 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 - **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
 
 ⭐️ **Key Highlight:**
-🧮*Why Full-History Backtesting?*
-**The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.**
-
-The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.
+#### *Why Full-History Backtesting?*
+#### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
+#### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
 
 ## 📌 Strategy Overview
 
