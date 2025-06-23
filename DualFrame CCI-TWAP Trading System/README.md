@@ -25,11 +25,11 @@ This table provides a comprehensive summary of the trading strategy based on liv
 Key performance metrics include :
 
 🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
-- **Sharpe Ratio** : **1.64 (8 years backtested sharpe ratio)**
-- **CAGR (Annualized Return)** : 29.21% 
-- **Maximum Drawdown** : -8.98%
-- **Profit Factor** : 1.42
-- **Win Rate (%)**: 44.82%
+- **Sharpe Ratio : 1.64 (8 years backtested sharpe ratio)**
+- **CAGR (Annualized Return) : 29.21%** 
+- **Maximum Drawdown : -8.98%**
+- **Profit Factor : 1.42**
+- **Win Rate (%) : 44.82%**
 
 ## 📌 Strategy Performance Report **(Backtested Period : From June 2017 to June 2025)**
 
@@ -41,7 +41,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 |--------|-------|
 | **Upside Potential Ratio** | 172.58 |
 | **Sharpe Ratio** | 0.47 |
-| **Annual Sharpe Ratio** | 1.64 |
+| **Annual Sharpe Ratio** | **1.64** |
 | **Sortino Ratio** | 1.29 |
 | **Fouse Ratio** | 0.0126 |
 | **Calmar Ratio** | 0.0194 |
@@ -53,7 +53,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Ratio | Value |
 |-------|-------|
-| **Profit Factor** | 1.42 |
+| **Profit Factor** | **1.42** |
 | **Adjusted Profit Factor** | 1.33 |
 | **Specific Profit Factor** | 1.38 |
 | **Return After Max DD** | 8.10 |
@@ -64,17 +64,17 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Metric | All Trades | Long Trades | Short Trades |
 |--------|------------|-------------|--------------|
-| **Net Profit** | 4,675,700 | 2,530,600 | 2,145,100 |
+| **Net Profit** | **4,675,700** | 2,530,600 | 2,145,100 |
 | **Adjusted Net Profit** | 3,758,009 | 1,823,471 | 1,534,731 |
 | **Gross Profit** | 15,804,600 | 10,152,200 | 5,652,400 |
 | **Gross Loss** | -11,128,900 | -7,621,600 | -3,507,300 |
 | **Max Drawdown** | -577,400 | -447,500 | -293,000 |
-| **Max Drawdown (%)** | -8.98% | -10.29% | -8.04% |
+| **Max Drawdown (%)** | **-8.98%** | -10.29% | -8.04% |
 | **Max Trade Loss** | -551,600 | -390,400 | -234,600 |
 | **Max Trade Loss (%)** | -8.59% | -9.06% | -6.46% |
 | **Win Rate** | 44.82% | 46.78% | 39.67% |
 | **Total Trades** | 1,776 | 1,287 | 489 |
-| **Max Contracts Held** | 2 | 2 | 2 |
+| **Max Contracts Held** | **2** | 2 | 2 |
 
 ---
 
@@ -112,8 +112,8 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Metric | All Trades | Long Trades | Short Trades |
 |--------|------------|-------------|--------------|
-| Total Trades | 1776 | 1287 | 489 |
-| Win Rate (%) | 44.82 | 46.78 | 39.67 |
+| **Total Trades** | **1776** | 1287 | 489 |
+| **Win Rate (%)** | **44.82** | 46.78 | 39.67 |
 | Avg Trade P&L | 2632.71 | 1966.28 | 4386.71 |
 | Avg Win | 19855.03 | 16864.12 | 29136.08 |
 | Avg Loss | -11484.93 | -11291.26 | -11929.59 |
