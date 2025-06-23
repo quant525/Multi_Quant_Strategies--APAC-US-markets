@@ -22,6 +22,7 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
 Key performance metrics include :
+*The data presented here desire to reflect the real and true performance numbers without any manipulation.*
 - **Sharpe Ratio** : **1.64 (8 years backtested sharpe ratio)**
 - **CAGR (Annualized Return)** : 29.21% 
 - **Maximum Drawdown** : -8.98%
