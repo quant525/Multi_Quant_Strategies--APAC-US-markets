@@ -26,26 +26,16 @@
 
 ### 📌 Strategy Overview
 
-This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
+This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades. **Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
 
 Key performance metrics include :
 
-🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
-- **Sharpe Ratio : 1.25 (From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
-- **Annual Return** : 31.08%
-- **Maximum Drawdown** : -10.49%
-- **Profit Factor** : 1.66 
-- **Win Rate (%)**: 72.71%
+- ✅ **Win Rate (%) : 72.71% with consistent returns across 1,396 trades.**
+- ✅ **Annual Return: 31.08%**
+- ✅ **Sharpe Ratio : 1.25 (From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
+- Profit Factor : 1.66
+- Maximum Drawdown : -10.49%
 
-#### 📈 Key Highlights
-
-- ✅ Strategy captures both long and short directional alpha.
-- ✅ Over 72% total win rate with consistent returns across 1,396 trades.
-- ✅ Adjusted Profit Factor (PF): 1.525 (Long: 1.501, Short: 1.444)
-- ✅ Selective Profit Factor exceeds 1.66
-- ✅ Annual Return: 31.08%
-- ✅ Sharpe Ratio: 1.25
-- 
 ### 📌 Strategy Performance Report (Backtested Period : From May 2002 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdown.
