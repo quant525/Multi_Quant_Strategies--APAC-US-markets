@@ -17,6 +17,7 @@
 - **Type : Multi-factor Momentum with Volatility Structure Model**  
 - **Rolling Frequency : 15-minute bars**  
 - **Typical Holding Time : 0.5 to 2 days**
+- **Strategy Time in Market (%) : 18.40%**   
 - **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
 
 ⭐️ **Key Highlight:**
@@ -159,7 +160,7 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 | Metric                           | Value                         |
 |----------------------------------|-------------------------------|
 | Trading Period                   | 23 Years, 2 Months, 14 Days   |
-| Strategy Active Period           | 4 Years, 3 Months             |
+| Strategy Time in Market (%)      | 18.40%                        |
 | Longest Flat Period              | 2 Months, 16 Days             |
 | Max Profit Date                  | 2015/08/21                    |
 | Max Drawdown Date                | 2021/02/22                    |
