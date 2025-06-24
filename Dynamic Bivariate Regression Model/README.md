@@ -158,6 +158,21 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Required Capital**              | 1,799,100    | 1,093,100    | 885,500       |
 | **Account Return (%)**            | 790.48%      | 833.22%      | 577.49%       |
 | **Return on Initial Capital (%)** | 711.08%      | 455.39%      | 255.69%       |
+---
+## 🕒 Time Analysis
+
+Summary of temporal characteristics for the trading strategy:
+
+| Metric                                | Value                             |
+|---------------------------------------|------------------------------------|
+| Trading Period                        | 24 Yrs, 1 Mth, 21 Dys              |
+| Time in Market                        | 12 Yrs, 1 Mth, 27 Dys, 13 Hrs      |
+| Percentage of Time in Market (%)      | 50.36439971                        |
+| Longest Flat (No Position) Period     | 1 Mth, 19 Dys, 1 Hr, 30 Mins       |
+| Date of Maximum Profit                | 2024/11/29                         |
+| Date of Maximum Loss                  | 2025/2/3                           |
+| Date of Maximum Strategy Drawdown     | 2025/3/28 09:45                    |
+| Date of Maximum Closed Trade Loss     | 2025/3/28 09:45                    |
 
 ---
 ## 📈 NAV (Since June 2001)
