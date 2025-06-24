@@ -29,9 +29,9 @@ Key performance metrics include :
 
 - ✅ **Annual Return** : 152%
 - ✅ **Sharpe Ratio : 1.24 (From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
-- **Maximum Drawdown** : -18.12% 
-- **Profit Factor** : 1.54 
-- **Win Rate (%)** : 49.6243%
+- Maximum Drawdown : -18.12% 
+- Profit Factor : 1.54 
+- Win Rate (%) : 49.6243%
  
 ### 📌 Strategy Performance Report (Backtested Period : From July 2001 to June 2025)
 
