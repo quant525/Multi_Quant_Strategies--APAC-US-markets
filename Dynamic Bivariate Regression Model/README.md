@@ -17,8 +17,10 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 - **Strategy Name: Dynamic Bivariate Regression Strategy**  
 - **Asset : Taiwan Index Futures (TXF)**  
 - **Type : Statistical Forecasting Model (Combining Trend-Following and Statistical Mean-Reversion)**  
-- **Rolling Frequency : 30-minute bars**  
+- **Rolling Frequency : 30-minute bars**
+- **Max Contracts Held : 5**     
 - **Typical Holding Time : 2 to 3 days**
+- **%Time in Market : 50.36%**
 - **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
 
 ⭐️ **Key Highlight:**
@@ -78,8 +80,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Metric Description                                                                 | Value         |
 |------------------------------------------------------------------------------------|---------------|
 | **Upside Potential Ratio**                                                        | 61.8100       |
-| **Sharpe Ratio**                                                                  | 0.3042        |
-| **Annualized Sharpe Ratio**                                                       | 1.0537        |
+| **Annual Sharpe Ratio**                                                       | 1.0537        |
 | **Sortino Ratio**                                                                 | 0.3582        |
 | **Fouse Ratio**                                                                   | 0.0068        |
 | **Calmar Ratio**                                                                  | 0.0232        |
@@ -115,7 +116,6 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Max Strategy Drawdown (%)**     | -20.52%      | -31.71%      | -16.56%       |
 | **Max Closed Trade Loss**         | -1,799,100   | -1,093,100   | -885,500      |
 | **Max Closed Trade Loss (%)**     | -18.68%      | -29.52%      | -14.85%       |
-| **Return After Drawdown**         | 6.66         | 7.67         | 3.99          |
 ---
 ### 📊 Trade Summary
 
