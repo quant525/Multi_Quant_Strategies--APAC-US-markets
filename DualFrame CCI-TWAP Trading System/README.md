@@ -1,6 +1,6 @@
-# 📈 DualFrame CCI-TWAP Trading System
+## 📈 DualFrame CCI-TWAP Trading System
 
-## 📌 Strategy Rationale
+### 📌 Strategy Rationale
 **The DualFrame CCI-TWAP System is designed to generate high-confidence directional signals through quantitative filtering of normalized price deviation metrics (CCI) across two temporal resolutions. A time-weighted average price (TWAP) component is used as a dynamic price anchor to regulate signal activation, enhancing noise suppression and trend alignment without reliance on conventional chart-based techniques.**
 
 A directional, quantitative-filtered momentum strategy that integrates multi-horizon signal alignment (via CCI) with time-weighted price anchoring (TWAP) for noise reduction and trend validation.
@@ -10,7 +10,7 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
-## 📌 Strategy Attributes
+### 📌 Strategy Attributes
 
 - **Strategy Name : DualFrame CCI-TWAP System**  
 - **Asset : Taiwan Index Futures (TXF)**    
@@ -26,7 +26,7 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 #### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
 #### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
 
-## 📌 Strategy Overview
+### 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
@@ -39,11 +39,11 @@ Key performance metrics include :
 - **Profit Factor : 1.42**
 - **Win Rate (%) : 44.82%**
 
-## 📌 Strategy Performance Report **(Backtested Period : From June 2017 to June 2025)**
+### 📌 Strategy Performance Report **(Backtested Period : From June 2017 to June 2025)**
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-## 📈 Strategy Performance by Year
+### 📈 Strategy Performance by Year
 
 | Year | Profit (¤) | Return (%)   | Gross Profit | Gross Loss | Trade Count | Win Rate (%)   |
 |------|------------|--------------|---------------|-------------|--------------|----------------|
