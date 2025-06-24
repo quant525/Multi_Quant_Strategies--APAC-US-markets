@@ -39,7 +39,7 @@ Key performance metrics include :
 
 ## 📌 Strategy Performance Report (Backtested Period : From June 2001 to June 2025)
 
-This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
+This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdown.
 
 ## 📊 Performance Ratios
 
