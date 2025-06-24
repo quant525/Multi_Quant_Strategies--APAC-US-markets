@@ -46,9 +46,6 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 
 ## 🗓️ Yearly Performance Summary
-
-# Strategy Performance Overview (Annual)
-
 This section outlines the year-by-year performance of the trading strategy, with detailed metrics such as net profit, gross profit/loss, number of trades, and win rate. All amounts are in ¤.
 
 | Year | Net Profit (¤) | Return (%) | Gross Profit (¤) | Gross Loss (¤) | Number of Trades | Win Rate (%) |
@@ -72,7 +69,6 @@ This section outlines the year-by-year performance of the trading strategy, with
 | 2009 | 818,900        | 6.64740119  | 858,000          | -39,100        | 15               | 86.66666667   |
 | 2008 | 600,400        | 5.123435193 | 1,431,000        | -830,600       | 25               | 76.0          |
 | 2007 | 1,718,700      | 17.187      | 1,829,500        | -110,800       | 24               | 95.83333333   |
-
 ---
 
 ## Summary
@@ -84,8 +80,7 @@ This section outlines the year-by-year performance of the trading strategy, with
 
 > _All values represent post-slippage results from a strategy running on a directional futures portfolio._
 
-
-> Note: Profit is represented in local currency (¤). Data is based on backtested results.
+> Note: Profit is represented in local currency (HSI).
 ### 📊 Performance Ratios
 
 | Metric Description                                                  | Value         |
