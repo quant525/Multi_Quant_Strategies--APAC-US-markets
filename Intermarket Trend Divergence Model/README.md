@@ -17,6 +17,7 @@
 - **Type : Directional Alpha Model (Relative Strength)**  
 - **Data Frequency : 30-minute bars**  
 - **Holding Duration : 3 to 6 days**
+- **Max Contracts Size : 19**
 - **Market Time :**
 - **Backtested Period : From April 2007 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
 
@@ -48,8 +49,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Metric Description                                                  | Value         |
 |--------------------------------------------------------------------|---------------|
 | **Upside Potential Ratio**                                         | 143.72        |
-| **Sharpe Ratio**                                                   | 0.4235        |
-| **Annualized Sharpe Ratio**                                        | 1.4671        |
+| **Annual Sharpe Ratio**                                        | 1.4671        |
 | **Sortino Ratio**                                                  | 0.5451        |
 | **Fouse Ratio**                                                    | 0.0062        |
 | **Calmar Ratio**                                                   | 0.0593        |
@@ -59,10 +59,10 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Metric                                  | All Trades   | Long Trades   | Short Trades   |
 |----------------------------------------|--------------|---------------|----------------|
-| **Profit Factor**                          | 2.910850097  | 4.530221734   | 1.824362422    |
-| Adjusted Profit Factor                 | 2.494546323  | 3.652137138   | 1.464196652    |
-| Specific Profit Factor                 | 2.933654127  | 2.996478013   | 2.867845261    |
-| Max Contracts Held Concurrently        | 19           | 18            | 19             |
+| **Profit Factor**                          | **2.9108**  | **4.5302**   | 1.8243    |
+| Adjusted Profit Factor                 | **2.4945**  | **3.6521**   | 1.4641    |
+| Specific Profit Factor                 | 2.9336  | 2.9964   | 2.8678    |
+| Max Contracts Size        | 19           | 18            | 19             |
 | Slippage Paid                          | 1469000      | 774000        | 695000         |
 | Commission Paid                        | 0            | 0             | 0              |
 | Unrealized P&L                         | n/a          | n/a           | n/a            |
@@ -71,10 +71,11 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Metric                                  | Value        |
 |----------------------------------------|--------------|
-| **Annualized Return (%)**                  | 16.15580837  | 
-| Monthly Return (%)                         | 1.346317364  | 
-| Buy-and-Hold Return ($)                    | 17440121.66  | 
-| Average Monthly Return ($)                 | 135074.3119  |     
+| **Annual Return (%)**                  | 16.1558  | 
+| Monthly Return (%)                         | 1.3463  | 
+| **Buy-and-Hold Return ($)**                    | **17440122**  | 
+| **Strategy Net Profit ($)**                    | **29446200**   |      
+| Average Monthly Return ($)                 | 135074  |     
 | Standard Deviation of Monthly Returns  | 333431.9566  | 
 
 ### 📊 Risk Metrics
@@ -90,12 +91,12 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 ### 📊 Trade Summary
 
 - **Total Number of Trades:** 434  
-  - Long: 242 
+  - Long: 242
   - Short: 192  
 - **Win Rate:**  
-  - **All**: 78.57%  
-  - Long: 82.23%  
-  - Short: 73.96%
+  - **All : 78.57%**  
+  - **Long: 82.23%**  
+  - **Short: 73.96%**
 ---
 ### 📊 Core Metrics
 
