@@ -19,7 +19,7 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 - **Holding Duration : 1.5 to 3 days**
 - **% Time in Market : 24.02%**   
 - **Max Contracts Size : 2 contracts** 
-- **Backtested Period : From June 2017 to June 2025 (8 Yrs, 9 Dys, 5 Hrs, 10 Mins)** *(In order to test if the strategy can survive under All-Weather conditions)*
+- **Backtested Period : From June 2017 to June 2025 (8 Yrs, 9 Dys, 5 Hrs, 10 Mins)** *(To evaluate whether the strategy can remain robust under all-weather market conditions.)*
 
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
@@ -146,7 +146,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Account Return (Multiple)          | 847.66x       | 648.21x        | 914.36x        |
 | Initial Capital Return (Multiple)  | 233.785x      | 126.53x        | 107.255x       |
 ---
-## ⏱ Time Analysis
+### ⏱ Time Analysis
 
 | Metric                             | Value                          |
 |------------------------------------|--------------------------------|
@@ -159,7 +159,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Max Strategy Drawdown Timestamp    | 2024/11/26 10:25               |
 | Max Trade Drawdown Timestamp       | 2024/11/26 13:35               |
 ---
-## Summary Statistics
+### Summary Statistics
 
 | Metric | All Trades | Long Trades | Short Trades |
 |--------|------------|-------------|--------------|
@@ -178,32 +178,32 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 ---
 
-## 📈 NAV (Since June 2017)
+### 📈 NAV (Since June 2017)
 
 ![NAV_DualFrame CCI-TWAP System](https://github.com/user-attachments/assets/be667483-9072-4df6-9304-5d90fbfba249)
 
 ---
-## 📈 Equity Curve (Since June 2017)
+### 📈 Equity Curve (Since June 2017)
 
 ![EquityCurve_DualFrame CCI-TWAP System](https://github.com/user-attachments/assets/1051c406-6c75-487e-bf5f-6ce09dfe1760)
 
 
-## Position Chart (Last 20 Days @13:45)
+### Position Chart (Last 20 Days @13:45)
 
 ![Position Chart](charts/last20days_chart.png)
 
-## Position Table (Last 20 Days)
+### Position Table (Last 20 Days)
 
 File: `data/last20days_table.csv`
 
-## Files Included
+### Files Included
 
 - `data/pos_TXFstrategyC.csv`: Raw position data
 - `charts/last20days_chart.png`: Recent position chart
 - `data/last20days_table.csv`: Filtered table at 13:45
 - `.github/workflows/update_positions.yml`: GitHub Action for daily updates
 - `scripts/update_and_plot.py`: Python script for processing and chart generation
+_Last Updated: 2025-06-22_
 
 ---
-
-_Last Updated: 2025-06-22_
+© Strategy logic remains proprietary.
