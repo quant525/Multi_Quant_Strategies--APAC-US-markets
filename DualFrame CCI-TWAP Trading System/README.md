@@ -43,7 +43,7 @@ Key performance metrics include :
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-### 📈 Strategy Performance by Year
+### 📊 Annual Performance (TWD-Based)
 
 | Year | Profit (¤) | Return (%)   | Gross Profit | Gross Loss | Trade Count | Win Rate (%)   |
 |------|------------|--------------|---------------|-------------|--------------|----------------|
