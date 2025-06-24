@@ -177,6 +177,6 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 ## 📌 Notes
 
 - *No strategy source code is included in this repository.*
-- *Performance matrix updated from MultiCharts outputs.*
+- *Performance matrix updated from MultiCharts outputs. Profits are in HKD.*
 _Last updated: 2025-06-24_
--*Profits are in HKD.*
+
