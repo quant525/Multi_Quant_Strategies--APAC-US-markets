@@ -161,10 +161,11 @@ This section outlines the annual performance of the strategy from 2001 to 2025, 
 ---
 ## 📈 NAV (Since June 2001)
 
-
+![NAV_Volatility-Calibrated Gap Trading System](https://github.com/user-attachments/assets/fee7eca2-bc10-405c-b354-623409e1a60c)
 ---
 ## 📈 Equity Curve (Since June 2001)
 
+![EquityCurve_Volatility-Calibrated Gap Trading System](https://github.com/user-attachments/assets/cf4c360b-82cf-4276-8548-793e71fde90a)
 
 ## 📌 Notes
 
