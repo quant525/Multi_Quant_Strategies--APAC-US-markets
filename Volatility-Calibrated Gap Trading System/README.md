@@ -13,8 +13,8 @@
 - **Type : Quantitative Intraday Strategy**  
 - **Rolling Frequency : 5-minute bars**  
 - **Holding Time : Intraday**
-- **Strategy Time in Market (%) : 5.061564393** 
-- **Backtested Period : From July 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
+- **Strategy Time in Market (%) : 5.06%** 
+- **Backtested Period : From July 2001 to June 2025** *(To evaluate whether the strategy can remain robust under all-weather market conditions.)*
 
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
