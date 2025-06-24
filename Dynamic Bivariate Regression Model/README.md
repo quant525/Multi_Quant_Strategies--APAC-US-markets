@@ -17,8 +17,10 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 - **Strategy Name: Dynamic Bivariate Regression Strategy**  
 - **Asset : Taiwan Index Futures (TXF)**  
 - **Type : Statistical Forecasting Model (Combining Trend-Following and Statistical Mean-Reversion)**  
-- **Rolling Frequency : 30-minute bars**  
+- **Rolling Frequency : 30-minute bars**
+- **Max Contracts Held : 5**     
 - **Typical Holding Time : 2 to 3 days**
+- **%Time in Market : 50.36%**
 - **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
 
 ⭐️ **Key Highlight:**
@@ -43,13 +45,42 @@ Key performance metrics include :
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
+### 📊  Annual Statistics Table
+
+|   Year |       Net Profit |   Profit (%) |    Gross Profit |       Gross Loss |   Num Trades |   Win Rate (%) |
+|-------:|-----------------:|-------------:|----------------:|-----------------:|-------------:|---------------:|
+|   2025 |  877100          |     5.70386  |      2.7928e+06 |      -1.9157e+06 |           42 |        54.7619 |
+|   2024 |       2.2691e+06 |    17.3105   |      5.1801e+06 |      -2.911e+06  |           85 |        58.8235 |
+|   2023 |  297600          |     2.32308  |      2.0824e+06 |      -1.7848e+06 |           86 |        52.3256 |
+|   2022 |       1.4209e+06 |    12.4753   |      2.7146e+06 |      -1.2937e+06 |           77 |        64.9351 |
+|   2021 |  195800          |     1.74917  |      2.4745e+06 |      -2.2787e+06 |           64 |        53.125  |
+|   2020 |       1.8727e+06 |    20.0908   |      2.9823e+06 |      -1.1096e+06 |           88 |        64.7727 |
+|   2019 |  413200          |     4.63853  |      1.152e+06  | -738800          |           74 |        59.4595 |
+|   2018 |  123400          |     1.40473  |      1.2206e+06 |      -1.0972e+06 |           69 |        55.0725 |
+|   2017 |   89200          |     1.02583  | 724900          | -635700          |           80 |        53.75   |
+|   2016 |  614400          |     7.60302  |      1.1992e+06 | -584800          |           69 |        55.0725 |
+|   2015 |  580500          |     7.73948  |      1.3134e+06 | -732900          |           88 |        62.5    |
+|   2014 |  281400          |     3.89799  | 762400          | -481000          |           58 |        51.7241 |
+|   2013 |  375600          |     5.48842  | 927300          | -551700          |           69 |        55.0725 |
+|   2012 |  173200          |     2.59658  | 960500          | -787300          |           72 |        58.3333 |
+|   2011 |  115300          |     1.75896  |      1.7801e+06 |      -1.6648e+06 |          101 |        52.4752 |
+|   2010 |  265100          |     4.21469  |      1.4006e+06 |      -1.1355e+06 |           82 |        57.3171 |
+|   2009 |       1.2357e+06 |    24.449    |      2.3247e+06 |      -1.089e+06  |           89 |        57.3034 |
+|   2008 |  773600          |    18.0722   |      2.1942e+06 |      -1.4206e+06 |           96 |        60.4167 |
+|   2007 |   31200          |     0.734221 |      1.4995e+06 |      -1.4683e+06 |           83 |        56.6265 |
+|   2006 |  648900          |    18.0225   |      1.1521e+06 | -503200          |           75 |        57.3333 |
+|   2005 |  436900          |    13.8102   | 927500          | -490600          |           93 |        56.9892 |
+|   2004 | -128000          |    -3.88869  |      1.835e+06  |      -1.963e+06  |          108 |        53.7037 |
+|   2003 |  189600          |     6.11219  |      1.1294e+06 | -939800          |           90 |        54.4444 |
+|   2002 |  451500          |    17.0345   |      1.9072e+06 |      -1.4557e+06 |          124 |        53.2258 |
+|   2001 |  650500          |    32.525    |      1.2688e+06 | -618300          |           68 |        52.9412 |
+
 ### 📊 Performance Ratios
 
 | Metric Description                                                                 | Value         |
 |------------------------------------------------------------------------------------|---------------|
 | **Upside Potential Ratio**                                                        | 61.8100       |
-| **Sharpe Ratio**                                                                  | 0.3042        |
-| **Annualized Sharpe Ratio**                                                       | 1.0537        |
+| **Annual Sharpe Ratio**                                                       | 1.0537        |
 | **Sortino Ratio**                                                                 | 0.3582        |
 | **Fouse Ratio**                                                                   | 0.0068        |
 | **Calmar Ratio**                                                                  | 0.0232        |
@@ -85,7 +116,6 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Max Strategy Drawdown (%)**     | -20.52%      | -31.71%      | -16.56%       |
 | **Max Closed Trade Loss**         | -1,799,100   | -1,093,100   | -885,500      |
 | **Max Closed Trade Loss (%)**     | -18.68%      | -29.52%      | -14.85%       |
-| **Return After Drawdown**         | 6.66         | 7.67         | 3.99          |
 ---
 ### 📊 Trade Summary
 
@@ -128,6 +158,21 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Required Capital**              | 1,799,100    | 1,093,100    | 885,500       |
 | **Account Return (%)**            | 790.48%      | 833.22%      | 577.49%       |
 | **Return on Initial Capital (%)** | 711.08%      | 455.39%      | 255.69%       |
+---
+## 🕒 Time Analysis
+
+Summary of temporal characteristics for the trading strategy:
+
+| Metric                                | Value                             |
+|---------------------------------------|------------------------------------|
+| Trading Period                        | 24 Yrs, 1 Mth, 21 Dys              |
+| Time in Market                        | 12 Yrs, 1 Mth, 27 Dys, 13 Hrs      |
+| Percentage of Time in Market (%)      | 50.36439971                        |
+| Longest Flat (No Position) Period     | 1 Mth, 19 Dys, 1 Hr, 30 Mins       |
+| Date of Maximum Profit                | 2024/11/29                         |
+| Date of Maximum Loss                  | 2025/2/3                           |
+| Date of Maximum Strategy Drawdown     | 2025/3/28 09:45                    |
+| Date of Maximum Closed Trade Loss     | 2025/3/28 09:45                    |
 
 ---
 ## 📈 NAV (Since June 2001)

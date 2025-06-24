@@ -17,6 +17,7 @@
 - **Type : Directional Alpha Model (Relative Strength)**  
 - **Data Frequency : 30-minute bars**  
 - **Holding Duration : 3 to 6 days**
+- **Max Contracts Size : 19**
 - **Market Time :**
 - **Backtested Period : From April 2007 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
 
@@ -43,13 +44,49 @@ Key performance metrics include :
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
+
+## 🗓️ Yearly Performance Summary
+This section outlines the year-by-year performance of the trading strategy, with detailed metrics such as net profit, gross profit/loss, number of trades, and win rate. All amounts are in ¤.
+
+| Year | Net Profit (¤) | Return (%) | Gross Profit (¤) | Gross Loss (¤) | Number of Trades | Win Rate (%) |
+|------|----------------|-------------|------------------|----------------|------------------|---------------|
+| 2025 | 1,418,600      | 3.730448411 | 1,543,200        | -124,600       | 14               | 78.57142857   |
+| 2024 | 1,280,300      | 3.484065496 | 3,889,200        | -2,608,900     | 19               | 63.15789474   |
+| 2023 | 2,345,100      | 6.81671521  | 2,856,000        | -510,900       | 25               | 84.0          |
+| 2022 | 1,304,300      | 3.9407334   | 2,004,300        | -700,000       | 27               | 70.37037037   |
+| 2021 | 1,085,900      | 3.392165438 | 2,429,100        | -1,343,200     | 26               | 76.92307692   |
+| 2020 | 267,200        | 0.841712658 | 2,098,200        | -1,831,000     | 21               | 76.19047619   |
+| 2019 | 3,115,100      | 10.8806589  | 4,386,500        | -1,271,400     | 33               | 78.78787879   |
+| 2018 | 2,970,500      | 11.5767444  | 4,258,100        | -1,287,600     | 36               | 75.0          |
+| 2017 | 2,089,800      | 8.866581245 | 2,775,600        | -685,800       | 19               | 73.68421053   |
+| 2016 | 1,970,500      | 9.12314979  | 2,322,700        | -352,200       | 20               | 85.0          |
+| 2015 | 708,100        | 3.38953032  | 1,483,900        | -775,800       | 26               | 76.92307692   |
+| 2014 | 2,669,800      | 14.65232424 | 3,253,800        | -584,000       | 22               | 86.36363636   |
+| 2013 | 1,930,700      | 11.85183821 | 2,604,500        | -673,800       | 15               | 80.0          |
+| 2012 | 1,088,300      | 7.158926457 | 1,298,700        | -210,400       | 16               | 75.0          |
+| 2011 | -45,200        | -0.296447872| 1,115,000        | -1,160,200     | 25               | 68.0          |
+| 2010 | 2,109,200      | 16.05419394 | 2,554,300        | -445,100       | 27               | 85.18518519   |
+| 2009 | 818,900        | 6.64740119  | 858,000          | -39,100        | 15               | 86.66666667   |
+| 2008 | 600,400        | 5.123435193 | 1,431,000        | -830,600       | 25               | 76.0          |
+| 2007 | 1,718,700      | 17.187      | 1,829,500        | -110,800       | 24               | 95.83333333   |
+---
+
+## Summary
+
+- **Best Year (Net Profit):** 2019 - ¤3,115,100
+- **Worst Year (Net Profit):** 2011 - ¤-45,200
+- **Highest Win Rate:** 2007 - 95.83%
+- **Most Active Year:** 2018 - 36 trades
+
+> _All values represent post-slippage results from a strategy running on a directional futures portfolio._
+
+> Note: Profit is represented in local currency (HSI).
 ### 📊 Performance Ratios
 
 | Metric Description                                                  | Value         |
 |--------------------------------------------------------------------|---------------|
 | **Upside Potential Ratio**                                         | 143.72        |
-| **Sharpe Ratio**                                                   | 0.4235        |
-| **Annualized Sharpe Ratio**                                        | 1.4671        |
+| **Annual Sharpe Ratio**                                        | 1.4671        |
 | **Sortino Ratio**                                                  | 0.5451        |
 | **Fouse Ratio**                                                    | 0.0062        |
 | **Calmar Ratio**                                                   | 0.0593        |
@@ -59,10 +96,10 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Metric                                  | All Trades   | Long Trades   | Short Trades   |
 |----------------------------------------|--------------|---------------|----------------|
-| **Profit Factor**                          | 2.910850097  | 4.530221734   | 1.824362422    |
-| Adjusted Profit Factor                 | 2.494546323  | 3.652137138   | 1.464196652    |
-| Specific Profit Factor                 | 2.933654127  | 2.996478013   | 2.867845261    |
-| Max Contracts Held Concurrently        | 19           | 18            | 19             |
+| **Profit Factor**                          | **2.9108**  | **4.5302**   | 1.8243    |
+| Adjusted Profit Factor                 | **2.4945**  | **3.6521**   | 1.4641    |
+| Specific Profit Factor                 | 2.9336  | 2.9964   | 2.8678    |
+| Max Contracts Size        | 19           | 18            | 19             |
 | Slippage Paid                          | 1469000      | 774000        | 695000         |
 | Commission Paid                        | 0            | 0             | 0              |
 | Unrealized P&L                         | n/a          | n/a           | n/a            |
@@ -71,10 +108,11 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Metric                                  | Value        |
 |----------------------------------------|--------------|
-| **Annualized Return (%)**                  | 16.15580837  | 
-| Monthly Return (%)                         | 1.346317364  | 
-| Buy-and-Hold Return ($)                    | 17440121.66  | 
-| Average Monthly Return ($)                 | 135074.3119  |     
+| **Annual Return (%)**                  | 16.1558  | 
+| Monthly Return (%)                         | 1.3463  | 
+| **Buy-and-Hold Return ($)**                    | **17440122**  | 
+| **Strategy Net Profit ($)**                    | **29446200**   |      
+| Average Monthly Return ($)                 | 135074  |     
 | Standard Deviation of Monthly Returns  | 333431.9566  | 
 
 ### 📊 Risk Metrics
@@ -90,12 +128,12 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 ### 📊 Trade Summary
 
 - **Total Number of Trades:** 434  
-  - Long: 242 
+  - Long: 242
   - Short: 192  
 - **Win Rate:**  
-  - **All**: 78.57%  
-  - Long: 82.23%  
-  - Short: 73.96%
+  - **All : 78.57%**  
+  - **Long: 82.23%**  
+  - **Short: 73.96%**
 ---
 ### 📊 Core Metrics
 

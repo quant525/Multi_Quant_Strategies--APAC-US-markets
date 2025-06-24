@@ -17,8 +17,9 @@ A directional, quantitative-filtered momentum strategy that integrates multi-hor
 - **Type : Momentum-Based Trend-Following**  
 - **Data Frequency : 10-minute bars**  
 - **Holding Duration : 1.5 to 3 days**
-- **Max Contracts Held : 2 contracts** 
-- **Backtested Period : From June 2017 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
+- **% Time in Market : 24.02%**   
+- **Max Contracts Size : 2 contracts** 
+- **Backtested Period : From June 2017 to June 2025 (8 Yrs, 9 Dys, 5 Hrs, 10 Mins)** *(In order to test if the strategy can survive under All-Weather conditions)*
 
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
@@ -42,6 +43,21 @@ Key performance metrics include :
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
+## 📈 Strategy Performance by Year
+
+| Year | Profit (¤) | Return (%)   | Gross Profit | Gross Loss | Trade Count | Win Rate (%)   |
+|------|------------|--------------|---------------|-------------|--------------|----------------|
+| 2025 | 769,300    | 13.0248544   | 1,763,000     | -993,700     | 107          | 46.72897196    |
+| 2024 | 753,400    | 14.62060935  | 3,340,200     | -2,586,800   | 211          | 45.49763033    |
+| 2023 | 347,000    | 7.22014149   | 1,421,600     | -1,074,600   | 215          | 43.72093023    |
+| 2022 | 575,800    | 13.61164957  | 2,300,000     | -1,724,200   | 234          | 38.03418803    |
+| 2021 | 860,000    | 25.51777343  | 2,590,400     | -1,730,400   | 222          | 50.00000000    |
+| 2020 | 556,300    | 19.76971463  | 1,815,900     | -1,259,600   | 227          | 45.37444934    |
+| 2019 | 500,800    | 21.65059876  | 986,200       | -485,400     | 206          | 47.08737864    |
+| 2018 | 260,700    | 12.7022023   | 1,210,100     | -949,400     | 228          | 45.17543860    |
+| 2017 | 52,400     | 2.62         | 377,200       | -324,800     | 126          | 42.06349206    |
+---
+
 ### 📊 Performance Ratios
 
 | Metric | Value |
@@ -63,7 +79,6 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | **Profit Factor** | **1.42** |
 | **Adjusted Profit Factor** | 1.33 |
 | **Specific Profit Factor** | 1.38 |
-| **Return After Max DD** | 8.10 |
 | **Slippage Paid** | 1,935,500 |
 | **Commission Paid** | 0 |
 
@@ -72,7 +87,7 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 | Metric                             | Value        |
 |-----------------------------------|--------------|
-| **Annualized Return (%)**          | **29.21%** |
+| **Annual Return (%)**          | **29.21%** |
 | **Monthly Return (%)**             | 2.43% |
 | **Buy-and-Hold Return**            | 2,177,535 |
 | **Average Monthly Return**         | 48,203 |
@@ -112,43 +127,42 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Adjusted Net / Max Loss (%) | 3,713.45% |
 | Adjusted Net / Max Trade DD (%) | 3,512.16% |
 | Adjusted Net / Max Strategy DD (%) | 650.85% |
-
 ---
 
 ### 📊 General Performance Metrics
 
-| Metric | All Trades | Long Trades | Short Trades |
-|--------|------------|-------------|--------------|
-| **Net Profit** | **4,675,700** | 2,530,600 | 2,145,100 |
-| **Adjusted Net Profit** | 3,758,009 | 1,823,471 | 1,534,731 |
-| **Gross Profit** | 15,804,600 | 10,152,200 | 5,652,400 |
-| **Gross Loss** | -11,128,900 | -7,621,600 | -3,507,300 |
-
-| **Max Contracts Held** | **2** | 2 | 2 |
-
+| Metric                             | All Trades    | Long Trades    | Short Trades   |
+|-----------------------------------|---------------|----------------|----------------|
+| Net Profit                         | 4,675,700     | 2,530,600      | 2,145,100      |
+| Gross Profit                       | 15,804,600    | 10,152,200     | 5,652,400      |
+| Gross Loss                         | -11,128,900   | -7,621,600     | -3,507,300     |
+| Adjusted Net Profit                | 3,758,009.03  | 1,823,471.70   | 1,534,731.44   |
+| Adjusted Gross Profit              | 15,244,420.81 | 9,738,427.22   | 5,246,581.33   |
+| Adjusted Gross Loss                | -11,486,411.78| -7,914,955.52  | -3,711,849.89  |
+| Specific Net Profit                | 2,513,700     | 2,597,200      | -83,500        |
+| Specific Gross Profit              | 9,205,200     | 7,026,000      | 2,179,200      |
+| Specific Gross Loss                | -6,691,500    | -4,428,800     | -2,262,700     |
+| Required Account Capital (Max)     | 551,600       | 390,400        | 234,600        |
+| Account Return (Multiple)          | 847.66x       | 648.21x        | 914.36x        |
+| Initial Capital Return (Multiple)  | 233.785x      | 126.53x        | 107.255x       |
 ---
+## ⏱ Time Analysis
 
-### 📌 Return Statistics
-
-| Metric | Value |
-|--------|-------|
-| **Required Capital** | 551,600 |
-| **Account Return (%)** | 847.66% |
-| **Return on Initial Capital (%)** | 233.79% |
-
-
----
-
-## 🧮 Return-to-Drawdown Metrics
-
-
+| Metric                             | Value                          |
+|------------------------------------|--------------------------------|
+| Total Backtest Period              | 8 Yrs, 9 Dys, 5 Hrs, 10 Mins   |
+| Time Strategy Was in Market        | 1 Yr, 11 Mths, 8 Dys, 55 Mins  |
+| % Time in Market                   | 24.01595941 %                  |
+| Longest Flat (No Position) Period  | 12 Dys, 19 Hrs, 50 Mins        |
+| Maximum Profit Date                | 2025/4/10                      |
+| Maximum Loss Date                  | 2024/8/5                       |
+| Max Strategy Drawdown Timestamp    | 2024/11/26 10:25               |
+| Max Trade Drawdown Timestamp       | 2024/11/26 13:35               |
 ---
 ## Summary Statistics
 
 | Metric | All Trades | Long Trades | Short Trades |
 |--------|------------|-------------|--------------|
-| **Total Trades** | **1776** | 1287 | 489 |
-| **Win Rate (%)** | **44.82** | 46.78 | 39.67 |
 | Avg Trade P&L | 2632.71 | 1966.28 | 4386.71 |
 | Avg Win | 19855.03 | 16864.12 | 29136.08 |
 | Avg Loss | -11484.93 | -11291.26 | -11929.59 |
