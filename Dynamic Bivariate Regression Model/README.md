@@ -1,6 +1,6 @@
-# 📈 Dynamic Bivariate Regression Regime-Switching Trading Strategy
+## 📈 Dynamic Bivariate Regression Regime-Switching Trading Strategy
 
-## 📌 Strategy Rationale
+### 📌 Strategy Rationale
 
 The  Dynamic Bivariate Regression Strategy is a **Regime-Switching and hybrid model (Combining Trend-Following and Statistical Mean-Reversion)** designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
 
@@ -12,7 +12,7 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system. (The strategy has been live traded since March 2024 through to the present.)*
 
-## 📌 Strategy Attributes
+### 📌 Strategy Attributes
 
 - **Strategy Name: Dynamic Bivariate Regression Strategy**  
 - **Asset : Taiwan Index Futures (TXF)**  
@@ -41,11 +41,11 @@ Key performance metrics include :
 - **Profit Factor** : 1.48
 - **Win Rate (%)**: 56.41%
 
-## 📌 Strategy Performance Report (Backtested Period : From June 2001 to June 2025)
+### 📌 Strategy Performance Report (Backtested Period : From June 2001 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-### 📊  Annual Statistics Table
+### 📊 Annual Performance (TWD-Based)
 
 |   Year |       Net Profit |   Profit (%) |    Gross Profit |       Gross Loss |   Num Trades |   Win Rate (%) |
 |-------:|-----------------:|-------------:|----------------:|-----------------:|-------------:|---------------:|
