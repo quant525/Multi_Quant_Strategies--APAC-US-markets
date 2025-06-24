@@ -172,10 +172,11 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 ## 📈 Equity Curve (Since June 2001)
 
 
-📌 *Note: All returns are calculated on an annual basis and expressed as a percentage of initial capital. Profits are in HKD.*
+📌 
 
 ## 📌 Notes
 
-- No strategy source code is included in this repository.
-- Performance matrix updated from MultiCharts outputs.
+- *No strategy source code is included in this repository.*
+- *Performance matrix updated from MultiCharts outputs.*
 _Last updated: 2025-06-24_
+-*Profits are in HKD.*
