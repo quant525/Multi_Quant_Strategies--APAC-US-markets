@@ -1,6 +1,6 @@
-# 📈 Asymmetric Skew-Aware Trend Engine
+## 📈 Asymmetric Skew-Aware Trend Engine
 
-## 📌 Strategy Rationale
+### 📌 Strategy Rationale
 
 **The Asymmetric Skew-Aware Trend Engine is designed for swing trading applications (currently applied to the Hang Seng Index Futures), integrating multi-layered momentum signals with volatility and skew-adjusted capital scaling.**
 
@@ -10,7 +10,7 @@
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 utill now)*
 
-## 📌 Strategy Attributes
+### 📌 Strategy Attributes
 
 - **Strategy Name: Asymmetric Skew-Aware Trend Engine**  
 - **Asset : Hang Seng Index Futures (HSI)**  
@@ -24,7 +24,7 @@
 #### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
 #### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
 
-## 📌 Strategy Overview
+### 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades.
 
@@ -37,7 +37,7 @@ Key performance metrics include :
 - **Profit Factor** : 1.66 
 - **Win Rate (%)**: 72.71%
 
-## 📈 Key Highlights
+#### 📈 Key Highlights
 
 - ✅ Strategy captures both long and short directional alpha.
 - ✅ Over 72% total win rate with consistent returns across 1,396 trades.
@@ -46,11 +46,11 @@ Key performance metrics include :
 - ✅ Annual Return: 31.08%
 - ✅ Sharpe Ratio: 1.25
 - 
-## 📌 Strategy Performance Report (Backtested Period : From May 2002 to June 2025)
+### 📌 Strategy Performance Report (Backtested Period : From May 2002 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-## 📊 Annual Performance Overview (HKD-Based)
+#### 📊 Annual Performance Overview (HKD-Based)
 This section outlines the annual performance of the strategy from 2002 to 2025, measured in HKD.
 
 
@@ -82,7 +82,7 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 | 2002 | 153,234.5    | 15.32%     | 294,494.5     | -141,260    | 41               | 85.37         |
 ---
 
-## 📊 Performance Ratios
+### 📊 Performance Ratios
 
 | Ratio                            | Value       |
 |----------------------------------|-------------|
@@ -164,7 +164,7 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 | Account Return (%)    | 1,682.83         | 840.53            | 897.65            |
 | Initial Capital Return| 719.07           | 364.54            | 354.53            |
 ---
-## ⏱️ Time Analysis
+### ⏱️ Time Analysis
 
 | Metric                           | Value                         |
 |----------------------------------|-------------------------------|
