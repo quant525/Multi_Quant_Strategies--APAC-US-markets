@@ -20,16 +20,16 @@
 - **Max Contracts Size : 19**
 - **Market Time :**
 - **Backtested Period : From April 2007 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
-> Note: Profit is represented in local currency (HSI).
+
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
 #### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
 #### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
 
+> *Note: Profit is represented in local currency (TWD).*
+
 ### 📌 Strategy Overview
-
 This table provides a comprehensive summary of the trading strategy performance based on real data, covering both long and short trades.
-
 Key performance metrics include :
 
 🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
