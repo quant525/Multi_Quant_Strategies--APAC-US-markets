@@ -1,6 +1,6 @@
-# 📈 Beta-Alpha Intermarket Trend Divergence Trading Strategy
+## 📈 Beta-Alpha Intermarket Trend Divergence Trading Strategy
 
-## 📌 Strategy Rationale
+### 📌 Strategy Rationale
 
 **The Intermarket Trend Divergence strategy is a directional momentum model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronics Sector Index Futures (TE) and Financial Sector Index Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven mechanism. Position sizing is dynamically adjusted using ATR for volatility-based exposure control.**
 
@@ -10,7 +10,7 @@
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
-## 📌 Strategy Attributes
+### 📌 Strategy Attributes
 
 - **Strategy Name : Intermarket Trend Divergence Model**  
 - **Asset : Taiwan Index Futures (TXF)**    
@@ -26,7 +26,7 @@
 #### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
 #### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
 
-## 📌 Strategy Overview
+### 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy performance based on real data, covering both long and short trades.
 
@@ -40,13 +40,11 @@ Key performance metrics include :
 - **Win Rate (%)**: ***78.57%***
 
 
-## 📌 Strategy Performance Report (Backtested Period : From April 2007 to June 2025)
+### 📌 Strategy Performance Report (Backtested Period : From April 2007 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-
-## 🗓️ Yearly Performance Summary
-This section outlines the year-by-year performance of the trading strategy, with detailed metrics such as net profit, gross profit/loss, number of trades, and win rate. All amounts are in ¤.
+### 📊 Annual Performance (TWD-Based)
 
 | Year | Net Profit (¤) | Return (%) | Gross Profit (¤) | Gross Loss (¤) | Number of Trades | Win Rate (%) |
 |------|----------------|-------------|------------------|----------------|------------------|---------------|
@@ -71,16 +69,6 @@ This section outlines the year-by-year performance of the trading strategy, with
 | 2007 | 1,718,700      | 17.187      | 1,829,500        | -110,800       | 24               | 95.83333333   |
 ---
 
-## Summary
-
-- **Best Year (Net Profit):** 2019 - ¤3,115,100
-- **Worst Year (Net Profit):** 2011 - ¤-45,200
-- **Highest Win Rate:** 2007 - 95.83%
-- **Most Active Year:** 2018 - 36 trades
-
-> _All values represent post-slippage results from a strategy running on a directional futures portfolio._
-
-> Note: Profit is represented in local currency (HSI).
 ### 📊 Performance Ratios
 
 | Metric Description                                                  | Value         |
@@ -181,11 +169,7 @@ Daily positions taken at 13:45 each day.
 
 ![Position Table](charts/position_table.png)
 
-## ⚙️ Automation
-This repository includes:
-- Python script to parse position CSV and auto-generate visuals
-- GitHub Actions workflow to update chart + table daily
-
+> Note: Profit is represented in local currency (HSI).
 ---
 
 © Strategy logic remains proprietary. This repository only presents portfolio-level analytics and is safe to be shared publicly.
