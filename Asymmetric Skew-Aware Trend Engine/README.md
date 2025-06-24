@@ -41,8 +41,8 @@ Key performance metrics include :
 
 This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdown.
 
-## 📊 Annual Performance Overview (TWD-Based)
-This section outlines the annual performance of the strategy from 2002 to 2025, measured in TWD.
+## 📊 Annual Performance Overview (HKD-Based)
+This section outlines the annual performance of the strategy from 2002 to 2025, measured in HKD.
 
 
 | Year | Profit (HK$) | Return (%) | Gross Profit | Gross Loss | Number of Trades | Win Rate (%) |
@@ -172,7 +172,7 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 ## 📈 Equity Curve (Since June 2001)
 
 
-📌 *Note: All returns are calculated on an annual basis and expressed as a percentage of initial capital. Profits are in TWD.*
+📌 *Note: All returns are calculated on an annual basis and expressed as a percentage of initial capital. Profits are in HKD.*
 
 ## 📌 Notes
 
