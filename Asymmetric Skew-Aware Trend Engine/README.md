@@ -31,11 +31,11 @@ This table provides a comprehensive summary of the trading strategy based on liv
 Key performance metrics include :
 
 🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
-- **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
-- **Annual Return** : 29.54%
-- **Maximum Drawdown** : -20.52%
-- **Profit Factor** : 1.48
-- **Win Rate (%)**: 56.41%
+- **Sharpe Ratio : 1.25 (From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
+- **Annual Return** : 31.08%
+- **Maximum Drawdown** : -10.49%
+- **Profit Factor** : 1.66 
+- **Win Rate (%)**: 72.71%
 
 ## 📌 Strategy Performance Report (Backtested Period : From June 2001 to June 2025)
 
@@ -46,8 +46,7 @@ This repository summarizes the performance of a trading strategy applied to Hang
 | Ratio                            | Value       |
 |----------------------------------|-------------|
 | Upside Potential Ratio           | 126.45      |
-| Sharpe Ratio                     | 0.36        |
-| Annualized Sharpe Ratio          | 1.25        |
+| Annual Sharpe Ratio              | 1.25        |
 | Sortino Ratio                    | 0.64        |
 | Calmar Ratio                     | 0.05        |
 | Sterling Ratio                   | 0.002       |
@@ -58,35 +57,72 @@ This repository summarizes the performance of a trading strategy applied to Hang
 |-----------------------------------|--------------|--------------|---------------|
 | Profit Factor                 | 1.66        | 1.67        | 1.64        |
 | Adjusted Profit Factor        | 1.53        | 1.50        | 1.44        |
+| Specific Profit Factor        | 1.86 | 1.56 | 2.39 |
+| Max Position Size             | 5 | 5 | 5 |
+| Slippage Paid                 | 449,000 | 313,100 | 135,900 |
+| Commission Paid               | 0 | 0 | 0 |
+| Unrealized PnL                | n/a | n/a | n/a |
 
 
-| Annual Return (%)             | 31.08       | 15.76       | 15.32       |
-| Monthly Return (%)            | 2.59        | 1.31        | 1.28        |
+### 📊 Annual and Monthly Return Metrics
 
+| Metric                            | All Trades      | Long Trades     | Short Trades    |
+|----------------------------------|------------------|------------------|------------------|
+| **Annual Return (%)**            | 31.08%           | 15.76%           | 15.32%           |
+| **Monthly Return (%)**           | 2.59%            | 1.31%            | 1.28%            |
+| **Buy & Hold Return**            | 1,026,457.75     | 1,026,457.75     | 1,088,326.13     |
+| **Average Monthly Return**       | 25,865.97        | -                | -                |
+| **Monthly Return Std Dev**       | 74,902.94        | -                | -                |
 
-
-| Net Profit / Max Drawdown (%)    | 4911.71     |
-| Adj. Net Profit / Max Strategy DD | 1365.43     |
-
+### 📊 Risk Metrics
+| Metric                                 | All Trades     | Long Trades   | Short Trades  |
+|----------------------------------------|----------------|---------------|---------------|
+| **Maximum Strategy Drawdown**          | -443,650       | -447,305      | -476,383.5    |
+| **Max Strategy Drawdown (%)**          | -10.49%        | -10.30%       | -20.21%       |
+| **Maximum Closed Trade Drawdown**      | -427,300       | -433,705      | -394,956      |
+| **Max Closed Trade Drawdown (%)**      | -8.94%         | -10.01%       | -16.39%       |
 ---
-## ⚙️ Strategy Performance Summary
+### 📊 Trade Summary
 
-| Metric                         | All Trades  | Long Only   | Short Only  |
-|--------------------------------|-------------|-------------|-------------|
-| Net Profit (NTD)              | 7,190,739.5 | 3,645,400.5 | 3,545,339   |
-| Gross Profit                  | 18,163,542  | 9,089,353.5 | 9,074,188.5 |
-| Gross Loss                    | -10,972,802.5 | -5,443,953 | -5,528,849.5 |
-| Adjusted Net Profit           | 6,057,724.97 | 2,901,746.34 | 2,661,374.12 |
-
-| Win Rate (%)                  | 72.71       | 68.77       | 77.62       |
-| Total Trades                  | 1396        | 775         | 621         |
-
-| Max Drawdown (%)              | -10.49      | -10.30      | -20.21      |
-| Max Strategy Drawdown (NTD)   | -443,650    | -447,305    | -476,383.5  |
-
-
+- **Total Number of Trades:** 1396  
+  - Long: 775  
+  - Short: 621  
+- **Win Rate:**  
+  - All: 72.71%  
+  - Long: 68.77%  
+  - Short: 77.62%
 ---
+### 📊 Return-to-Drawdown Ratios
 
+| Metric | Value |
+|--------|-------|
+| Net Profit / Max Drawdown (%) | **4911.71%** |
+| Net Profit / Max Trade Drawdown (%) | **4925.16%** |
+| Net Profit / Max Strategy Drawdown (%) | **1620.81%** |
+| Specific Net Profit / Max Drawdown (%) | **3839.67%** |
+| Specific Net Profit / Max Trade Drawdown (%) | **3850.19%** |
+| Specific Net Profit / Max Strategy Drawdown (%) | **1267.05%** |
+| Adjusted Net Profit / Max Drawdown (%) | **4137.79%** |
+| Adjusted Net Profit / Max Trade Drawdown (%) | **4149.13%** |
+| Adjusted Net Profit / Max Strategy Drawdown (%) | **1365.43%** |
+---
+### 📊 General Performance Metrics
+
+| Metric                 | All Trades       | Long              | Short             |
+|:----------------------|-----------------:|------------------:|------------------:|
+| Net Profit            | 7,190,739.5      | 3,645,400.5       | 3,545,339         |
+| Gross Profit          | 18,163,542       | 9,089,353.5       | 9,074,188.5       |
+| Gross Loss            | -10,972,802.5    | -5,443,953        | -5,528,849.5      |
+| Adjusted Net Profit   | 6,057,724.974    | 2,901,746.344     | 2,661,374.115     |
+| Adjusted Gross Profit | 17,593,420.37    | 8,695,649.897     | 8,660,870.54      |
+| Adjusted Gross Loss   | -11,535,695.39   | -5,793,903.553    | -5,999,496.424    |
+| Selective Net Profit  | 5,621,281        | 2,353,907.5       | 3,267,373.5       |
+| Selective Gross Profit| 12,149,743       | 6,539,568.5       | 5,610,174.5       |
+| Selective Gross Loss  | -6,528,462       | -4,185,661        | -2,342,801        |
+| Capital Required      | 427,300          | 433,705           | 394,956           |
+| Account Return (%)    | 1,682.83         | 840.53            | 897.65            |
+| Initial Capital Return| 719.07           | 364.54            | 354.53            |
+---
 ## ⏱️ Time Analysis
 
 | Metric                           | Value                         |
@@ -96,124 +132,16 @@ This repository summarizes the performance of a trading strategy applied to Hang
 | Longest Flat Period              | 2 Months, 16 Days             |
 | Max Profit Date                  | 2015/08/21                    |
 | Max Drawdown Date                | 2021/02/22                    |
-
----
-
-## 📈 Key Ratios
-
-| Metric | Value |
-|--------|-------|
-| Max Drawdown Efficiency (Net/Drawdown %) | 4911.71% |
-| Adjusted Net Profit / Max Strategy Drawdown % | 1365.43% |
-| Specific Profit Factor | 1.86 |
-| Adjusted Profit Factor | 1.53 |
-| Capital Required | 427,300 |
-| ROI on Account Size | 1,682.83% |
-| Slippage Paid | 449,000 |
-| Commission Paid | 0 |
-
----
-
-
-
-> ⚙️ This performance is based on MultiCharts live position logs from 2001 to 2025, updated daily via GitHub Actions.
-
-### 📊 Profitability Ratios
-
-| Metric                             | All Trades   | Long Trades  | Short Trades  |
-|-----------------------------------|--------------|--------------|---------------|
-| **Profit Factor**                 | 1.48         | 1.63         | 1.34          |
-| **Adjusted Profit Factor**        | 1.39         | 1.49         | 1.22          |
-| **Specific Profit Factor**        | 1.55         | 1.59         | 1.50          |
-| **Max Contracts Held**            | 5            | 3            | 5             |
-| **Slippage Paid**                 | 767,000      | 331,500      | 435,500       |
-| **Commission Paid**               | 0            | 0            | 0             |
-| **Unrealized P&L**                | 32,800       | n/a          | 32,800        |
-
-### 📊 Annual and Monthly Return Metrics
-
-| Metric                             | Value        |
-|-----------------------------------|--------------|
-| **Annualized Return (%)**         | 29.54        |
-| **Monthly Return (%)**            | 2.46         |
-| **Average Monthly Return ($)**    | 49,323.18    |
-| **Standard Deviation of Monthly Returns** | 165,705.49 |
-| **Buy-and-Hold Return ($)**       | 6,762,849.05 |
----
-### 📊 Risk Metrics
-
-| Metric                             | All Trades   | Long Trades  | Short Trades  |
-|-----------------------------------|--------------|--------------|---------------|
-| **Max Strategy Drawdown**         | -2,136,700   | -1,187,800   | -1,282,500    |
-| **Max Strategy Drawdown (%)**     | -20.52%      | -31.71%      | -16.56%       |
-| **Max Closed Trade Loss**         | -1,799,100   | -1,093,100   | -885,500      |
-| **Max Closed Trade Loss (%)**     | -18.68%      | -29.52%      | -14.85%       |
-| **Return After Drawdown**         | 6.66         | 7.67         | 3.99          |
----
-### 📊 Trade Summary
-
-- **Total Number of Trades:** 2,005  
-  - Long: 1,006  
-  - Short: 999  
-- **Win Rate:**  
-  - All: 56.41%  
-  - Long: 57.16%  
-  - Short: 55.66%
----
-### 📊 Return-to-Drawdown Ratios
-
-| Ratio Description                                                                                  | Value         |
-|----------------------------------------------------------------------------------------------------|---------------|
-| Net Profit / Max Loss (%)                                                                          | 2875.96       |
-| Net Profit / Max Closed Trade Drawdown (%)                                                         | 2276.91       |
-| Net Profit / Max Strategy Drawdown (%)                                                             | 665.59        |
-| Specific Net Profit / Max Loss (%)                                                                 | 2013.93       |
-| Specific Net Profit / Max Closed Trade Drawdown (%)                                                | 1594.44       |
-| Specific Net Profit / Max Strategy Drawdown (%)                                                    | 466.09        |
-| Adjusted Net Profit / Max Loss (%)                                                                 | 2410.26       |
-| Adjusted Net Profit / Max Closed Trade Drawdown (%)                                                | 1908.22       |
-| Adjusted Net Profit / Max Strategy Drawdown (%)                                                    | 557.81        |
----
-
-### 📊 General Performance Metrics
-
-| Metric                             | All Trades   | Long Trades  | Short Trades  |
-|-----------------------------------|--------------|--------------|---------------|
-| **Net Profit**                    | 14,221,600   | 9,107,900    | 5,113,700     |
-| **Gross Profit**                  | 43,736,400   | 23,487,800   | 20,248,600    |
-| **Gross Loss**                    | -29,514,800  | -14,379,900  | -15,134,900   |
-| **Net Profit (Adjusted)**         | 11,918,720.73| 7,434,122.92 | 3,531,794.59  |
-| **Gross Profit (Adjusted)**       | 42,435,895.89| 22,508,291.03| 19,389,868.08 |
-| **Gross Loss (Adjusted)**         | -30,517,175.16| -15,074,168.11| -15,858,073.50|
-| **Specific Net Profit**           | 9,958,900    | 5,579,500    | 4,379,400     |
-| **Specific Gross Profit**         | 28,141,100   | 14,992,700   | 13,148,400    |
-| **Specific Gross Loss**           | -18,182,200  | -9,413,200   | -8,769,000    |
-| **Required Capital**              | 1,799,100    | 1,093,100    | 885,500       |
-| **Account Return (%)**            | 790.48%      | 833.22%      | 577.49%       |
-| **Return on Initial Capital (%)** | 711.08%      | 455.39%      | 255.69%       |
-
 ---
 ## 📈 NAV (Since June 2001)
 
-![NAV_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/71c4f968-4615-4fcf-8514-9f48c271443d)
+
 ---
 ## 📈 Equity Curve (Since June 2001)
 
-![EquityCurve_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/20feb853-ac5f-4681-8eef-bd6b5db079e2)
 
-## 📋 Recent Daily Positions at 13:45
+## 📌 Notes
 
-This table shows the position size for each day at exactly 13:45.
-
-Data is available in: `data/recent_1345_positions.csv`
-
-## 🔄 Data Source
-
-Data is exported from MultiCharts in CSV format.
-
-## 📁 Files
-
-- `data/pos_TXFstrategyA.csv`: Full position export  
-- `data/recent_1345_positions.csv`: Latest 13:45 positions  
-- `images/position_plot_english_fixed.png`: Position time series plot  
-- `scripts/update_position.py`: Python script for plotting and extraction  
+- No strategy source code is included in this repository.
+- Performance matrix updated from MultiCharts outputs.
+_Last updated: 2025-06-24_
