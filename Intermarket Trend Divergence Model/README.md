@@ -20,7 +20,7 @@
 - **Max Contracts Size : 19**
 - **Market Time :**
 - **Backtested Period : From April 2007 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
-
+> Note: Profit is represented in local currency (HSI).
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
 #### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
@@ -168,8 +168,6 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 Daily positions taken at 13:45 each day.
 
 ![Position Table](charts/position_table.png)
-
-> Note: Profit is represented in local currency (HSI).
 ---
 
-© Strategy logic remains proprietary. This repository only presents portfolio-level analytics and is safe to be shared publicly.
+© Strategy logic remains proprietary.
