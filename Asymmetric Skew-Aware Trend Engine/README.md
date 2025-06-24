@@ -37,6 +37,15 @@ Key performance metrics include :
 - **Profit Factor** : 1.66 
 - **Win Rate (%)**: 72.71%
 
+## 📈 Key Highlights
+
+- ✅ Strategy captures both long and short directional alpha.
+- ✅ Over 72% total win rate with consistent returns across 1,396 trades.
+- ✅ Adjusted Profit Factor (PF): 1.525 (Long: 1.501, Short: 1.444)
+- ✅ Selective Profit Factor exceeds 1.66
+- ✅ Annual Return: 31.08%
+- ✅ Sharpe Ratio: 1.25
+- 
 ## 📌 Strategy Performance Report (Backtested Period : From May 2002 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdown.
