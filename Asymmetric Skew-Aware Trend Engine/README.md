@@ -37,7 +37,7 @@ Key performance metrics include :
 - **Profit Factor** : 1.66 
 - **Win Rate (%)**: 72.71%
 
-## 📌 Strategy Performance Report (Backtested Period : From June 2001 to June 2025)
+## 📌 Strategy Performance Report (Backtested Period : From May 2002 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdown.
 
