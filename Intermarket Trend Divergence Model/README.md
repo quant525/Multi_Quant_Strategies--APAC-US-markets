@@ -31,11 +31,12 @@ This table comprehensively summarizes the trading strategy performance based on 
 Key performance metrics include :
 
 🌟 **Note:** **wanna mention that the numbers presented here desire to reflect the real and true performance without manipulation.**
-- **Sharpe Ratio** : **1.4671**
-- **Annual Return** : **16.16%**
-- **Maximum Drawdown** : -13.39%
-- **Profit Factor** : ***2.91***
-- **Win Rate (%)**: ***78.57%***
+- ✅ **Profit Factor** : ***2.91*** **(From June 2007 to June 2025 -> 18 years backtested Sharpe ratio)**
+- ✅ **Win Rate (%)**: ***78.57%***
+- ✅ **Sharpe Ratio** : **1.4671**
+- Annual Return : **16.16%
+- Maximum Drawdown : -13.39%
+
 > *Note: Profit is represented in local currency (TWD).*
 
 ## 📌 Strategy Performance Report (Backtested Period : From April 2007 to June 2025)
