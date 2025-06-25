@@ -166,9 +166,12 @@ This section outlines the annual performance of the strategy from 2001 to 2025, 
 
 ![EquityCurve_Volatility-Calibrated Gap Trading System](https://github.com/user-attachments/assets/cf4c360b-82cf-4276-8548-793e71fde90a)
 
-## 📌 Notes
-
+#### 🔄 Data Source
+Data is exported from MultiCharts in CSV format.
+#### 📌 Notes
 - *No strategy source code is included in this repository.*
-- *Performance matrix updated from MultiCharts outputs. Profits are in HKD.*
+- *Performance matrix updated from MultiCharts outputs. Profits are in TWD.*
 _Last updated: 2025-06-24_
+---
+© Strategy rationale remains proprietary.
 
