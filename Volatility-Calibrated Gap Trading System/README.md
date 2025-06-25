@@ -2,7 +2,7 @@
 
 ### 📌 Strategy Rationale
 
-**The Volatility-Calibrated Gap Trading System is a gap-sensitive intraday trading model for Hang Seng Index Futures, integrating dual-mode logic for gap fill and gap fade. Combined multi-timeframe momentum filters, day/week structural context, and volatility-based entry adaptation to optimize signal quality and trading frequency across the session.**
+**The Volatility-Calibrated Gap Trading System is a gap-sensitive intraday trading model for Hang Seng Index Futures, integrating dual-mode logic for gap fill and gap fade. Combined multi-timeframe momentum filters, day/week structural context, and volatility-based entry adaptation to strengthen signal quality and trading frequency across the session.**
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 until now)*
 
