@@ -1,16 +1,16 @@
 ## 📈 Beta-Alpha Intermarket Trend Divergence Trading Strategy
 
-### 📌 Strategy Rationale
+## 📌 Strategy Rationale
 
 **The Intermarket Trend Divergence strategy is a directional momentum model applied to Taiwan Index Futures (TXF), which exploits structural divergences between the Electronics Sector Index Futures (TE) and Financial Sector Index Futures (TF) sectors. This approach conceptually blends beta exposure with an alpha insight (relative value spread between sectors), creating a structural divergence-driven mechanism. Position sizing is dynamically adjusted using ATR for volatility-based exposure control.**
 
 
 🌟 **Note:** 
-*All results are based on real historical market data. Backtest coverage spans over 18 years, and *the strategy has been live traded on TXF for more than one year*. While different versions of the strategy have been deployed during live trading to meet institutional requirements, the core logic remains unchanged. The version presented here reflects a personally preferred configuration, selected for its clarity and transparency in performance representation.*
+*All results are based on real historical market data. Backtest coverage spans over 18 years, and *the strategy has been live traded on TXF for over a year*. While different strategy versions have been deployed during live trading to meet institutional requirements, the core logic remains unchanged. The version presented here reflects a personally preferred configuration selected for its clarity and transparency in performance representation.*
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
 
-### 📌 Strategy Attributes
+## 📌 Strategy Attributes
 
 - **Strategy Name : Intermarket Trend Divergence Model**  
 - **Asset : Taiwan Index Futures (TXF)**    
@@ -18,29 +18,27 @@
 - **Data Frequency : 30-minute bars**  
 - **Holding Duration : 3 to 6 days**
 - **Max Contracts Size : 19**
-- **Market Time :**
-- **Backtested Period : From April 2007 to June 2025** *(In order to test if the strategy can survive under All-Weather conditions)*
-
+- **Strategy Time in Market (%) :**
+- **Backtested Period : From April 2007 to June 2025** *(To evaluate whether the strategy can remain robust under all-weather market conditions.)*
+  
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
-#### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
-#### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
+#### *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macrocycles.*
 
-> *Note: Profit is represented in local currency (TWD).*
 
-### 📌 Strategy Overview
-This table provides a comprehensive summary of the trading strategy performance based on real data, covering both long and short trades.
+## 📌 Strategy Overview
+This table comprehensively summarizes the trading strategy performance based on real data, covering both long and short trades.
 Key performance metrics include :
 
-🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
+🌟 **Note:** **wanna mention that the numbers presented here desire to reflect the real and true performance without manipulation.**
 - **Sharpe Ratio** : **1.4671**
 - **Annual Return** : **16.16%**
 - **Maximum Drawdown** : -13.39%
 - **Profit Factor** : ***2.91***
 - **Win Rate (%)**: ***78.57%***
+> *Note: Profit is represented in local currency (TWD).*
 
-
-### 📌 Strategy Performance Report (Backtested Period : From April 2007 to June 2025)
+## 📌 Strategy Performance Report (Backtested Period : From April 2007 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Taiwan Index Futures (TXF), highlighting core performance metrics, risk statistics, and trade breakdown.
 
@@ -164,10 +162,11 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 ![EquityCurve_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/97b6b009-a921-4d63-8bfc-f511c3a547c5)
 
-## 📊 Recent 20 Trading Days (13:45 Snapshot)
-Daily positions taken at 13:45 each day.
+#### 📌 Notes
 
-![Position Table](charts/position_table.png)
+- *No strategy source code is included in this repository.*
+- *Performance matrix updated from MultiCharts outputs. Profits are in TWD.*
+_Last updated: 2025-06-24_
 ---
 
-© Strategy logic remains proprietary.
+© Strategy rationale remains proprietary.
