@@ -37,7 +37,7 @@ Key performance metrics include :
 - Profit Factor : 1.66
 - Maximum Drawdown : -10.49%
 
-### 📌 Strategy Performance Report (Backtested Period : From May 2002 to June 2025)
+## 📌 Strategy Performance Report (Backtested Period : From May 2002 to June 2025)
 
 This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdown.
 
