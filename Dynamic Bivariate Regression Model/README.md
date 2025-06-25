@@ -179,11 +179,6 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 #### 🔄 Data Source
 Data is exported from MultiCharts in CSV format.
-#### 📁 Files
-- `data/pos_TXFstrategyA.csv`: Full position export  
-- `data/recent_1345_positions.csv`: Latest 13:45 positions  
-- `images/position_plot_english_fixed.png`: Position time series plot  
-- `scripts/update_position.py`: Python script for plotting and extraction
 #### 📌 Notes
 - *No strategy source code is included in this repository.*
 - *Performance matrix updated from MultiCharts outputs. Profits are in TWD.*
