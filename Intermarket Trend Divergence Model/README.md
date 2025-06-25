@@ -18,7 +18,7 @@
 - **Data Frequency : 30-minute bars**  
 - **Holding Duration : 3 to 6 days**
 - **Max Contracts Size : 19**
-- **Strategy Time in Market (%) :**
+- **Strategy Time in Market (%) : 28%**
 - **Backtested Period : From April 2007 to June 2025** *(To evaluate whether the strategy can remain robust under all-weather market conditions.)*
   
 ⭐️ **Key Highlight:**
@@ -137,6 +137,16 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 | Required Account Capital               | 989600       | 839800        | 2003700        |
 | Account Return (%)                     | 2975.565885  | 2601.047869   | 379.4280581    |
 | Return on Initial Capital (%)          | 294.462      | 218.436       | 76.026         |
+---
+## ⏱️ Time Analysis
+
+| Metric                                       | Value                                   |
+|---------------------------------------------|-----------------------------------------|
+| Total Trading Period                        | 18 Yrs, 3 Mths, 11 Dys, 4 Hrs, 30 Mins  |
+| Strategy Time in Market (%)                 | 28.2348339                              |
+| Longest Flat Period                         | 4 Mths, 7 Dys, 21 Hrs                   |
+| Date of Maximum Profit                      | 2018/10/11                              |
+| Date of Maximum Loss                        | 2017/8/3                                |
 ---
 ### 📊 Return-to-Drawdown Ratios
 
