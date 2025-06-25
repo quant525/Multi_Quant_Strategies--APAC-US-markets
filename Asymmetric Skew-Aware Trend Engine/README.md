@@ -1,6 +1,6 @@
 ## 📈 Asymmetric Skew-Aware Trend Engine
 
-### 📌 Strategy Rationale
+## 📌 Strategy Rationale
 
 **The Asymmetric Skew-Aware Trend Engine is designed for swing trading applications (currently applied to the Hang Seng Index Futures), integrating multi-layered momentum signals with volatility and skew-adjusted capital scaling.**
 
@@ -10,7 +10,7 @@
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 utill now)*
 
-### 📌 Strategy Attributes
+## 📌 Strategy Attributes
 
 - **Strategy Name: Asymmetric Skew-Aware Trend Engine**  
 - **Asset : Hang Seng Index Futures (HSI)**  
@@ -25,7 +25,7 @@
 #### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
 #### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
 
-### 📌 Strategy Overview
+## 📌 Strategy Overview
 
 This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades. **Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
 
@@ -171,8 +171,6 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 ---
 ## 📈 Equity Curve (Since June 2001)
 
-
-📌 
 
 ## 📌 Notes
 
