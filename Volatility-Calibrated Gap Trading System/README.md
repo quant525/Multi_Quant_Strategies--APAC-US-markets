@@ -4,7 +4,7 @@
 
 **The Volatility-Calibrated Gap Trading System is a gap-sensitive intraday trading model for Hang Seng Index Futures, integrating dual-mode logic for gap fill and gap fade. Combined multi-timeframe momentum filters, day/week structural context, and volatility-based entry adaptation to optimize signal quality and trading frequency across the session.**
 
-*This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 utill now)*
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system. (Real-time strategy starts from March 2024 until now)*
 
 ### 📌 Strategy Attributes
 
@@ -18,24 +18,23 @@
 
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
-#### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
-#### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
+#### *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macrocycles.*
 
 ### 📌 Strategy Overview
 
-This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades. **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
-
+This table provides a comprehensive summary of the trading strategy based on live and backtested data, covering both long and short trades. 
 Key performance metrics include :
 
+🌟 **Note:** **wanna mention that the numbers presented here desire to reflect the real and true performance without manipulation.**
 - ✅ **Annual Return** : 152%
 - ✅ **Sharpe Ratio : 1.24 (From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
+- ✅ **Profit Factor : 1.54** 
 - Maximum Drawdown : -18.12% 
-- Profit Factor : 1.54 
 - Win Rate (%) : 49.6243%
  
 ### 📌 Strategy Performance Report (Backtested Period : From July 2001 to June 2025)
 
-This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdown.
+This repository summarizes the performance of a trading strategy applied to Hang Seng Index Futures (HSI), highlighting core performance metrics, risk statistics, and trade breakdowns.
 
 #### 📊 Annual Performance Overview (HKD-Based)
 This section outlines the annual performance of the strategy from 2001 to 2025, measured in HKD.
