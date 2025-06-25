@@ -1,6 +1,6 @@
 ## 📈 Dynamic Bivariate Regression Regime-Switching Trading Strategy
 
-### 📌 Strategy Rationale
+## 📌 Strategy Rationale
 
 The  Dynamic Bivariate Regression Strategy is a **Regime-Switching and hybrid model (Combining Trend-Following and Statistical Mean-Reversion)** designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
 
@@ -12,7 +12,7 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 
 *This README was automatically generated as part of a real-time strategy monitoring and reporting system. (The strategy has been live traded from March 2024 through the present.)*
 
-### 📌 Strategy Attributes
+## 📌 Strategy Attributes
 
 - **Strategy Name: Dynamic Bivariate Regression Strategy**  
 - **Asset : Taiwan Index Futures (TXF)**  
@@ -161,19 +161,13 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 ---
 ## 🕒 Time Analysis
 
-Summary of temporal characteristics for the trading strategy:
-
 | Metric                                | Value                             |
 |---------------------------------------|------------------------------------|
 | Trading Period                        | 24 Yrs, 1 Mth, 21 Dys              |
-| Time in Market                        | 12 Yrs, 1 Mth, 27 Dys, 13 Hrs      |
 | Percentage of Time in Market (%)      | 50.36439971                        |
 | Longest Flat (No Position) Period     | 1 Mth, 19 Dys, 1 Hr, 30 Mins       |
 | Date of Maximum Profit                | 2024/11/29                         |
 | Date of Maximum Loss                  | 2025/2/3                           |
-| Date of Maximum Strategy Drawdown     | 2025/3/28 09:45                    |
-| Date of Maximum Closed Trade Loss     | 2025/3/28 09:45                    |
-
 ---
 ## 📈 NAV (Since June 2001)
 
@@ -183,19 +177,17 @@ Summary of temporal characteristics for the trading strategy:
 
 ![EquityCurve_Dynamic Bivariate Regression Model](https://github.com/user-attachments/assets/20feb853-ac5f-4681-8eef-bd6b5db079e2)
 
-## 📋 Recent Daily Positions at 13:45
-
-This table shows the position size for each day at exactly 13:45.
-
-Data is available in: `data/recent_1345_positions.csv`
-
-## 🔄 Data Source
-
+#### 🔄 Data Source
 Data is exported from MultiCharts in CSV format.
-
-## 📁 Files
-
+#### 📁 Files
 - `data/pos_TXFstrategyA.csv`: Full position export  
 - `data/recent_1345_positions.csv`: Latest 13:45 positions  
 - `images/position_plot_english_fixed.png`: Position time series plot  
-- `scripts/update_position.py`: Python script for plotting and extraction  
+- `scripts/update_position.py`: Python script for plotting and extraction
+#### 📌 Notes
+- *No strategy source code is included in this repository.*
+- *Performance matrix updated from MultiCharts outputs. Profits are in TWD.*
+_Last updated: 2025-06-24_
+---
+
+© Strategy rationale remains proprietary.
