@@ -2,7 +2,7 @@
 
 ## 📌 Strategy Rationale
 
-The  Dynamic Bivariate Regression Strategy is a **Regime-Switching and hybrid model (Combining Trend-Following and Statistical Mean-Reversion)** designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.
+**The  Dynamic Bivariate Regression Strategy is a Regime-Switching and hybrid model (Combining Trend-Following and Statistical Mean-Reversion) designed for the Taiwan Index Futures (TXF) market. It dynamically adjusts its entry and exit logic based on the autocorrelation structure of regression residuals between actual market prices and a predicted regression line.**
 
 This regime-adaptive structure allows the strategy to benefit from both trend-following  and statistical mean-reversion regimes based on regression residuals and confidence intervals, improving robustness across different market conditions.
 
@@ -18,10 +18,10 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 - **Asset : Taiwan Index Futures (TXF)**  
 - **Type : Statistical Forecasting Model (Combining Trend-Following and Statistical Mean-Reversion)**  
 - **Rolling Frequency : 30-minute bars**
-- **Max Contracts Held : 5**     
+- **Max Contracts Size : 5**     
 - **Typical Holding Time : 2 to 3 days**
-- **%Time in Market : 50.36%**
-- **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
+- **Strategy Time in Market (%)  : 50.36%**
+- **Backtested Period : From June 2001 to June 2025** *(To evaluate whether the strategy can remain robust under all-weather market conditions.)*
 
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
@@ -35,10 +35,10 @@ This table provides a comprehensive summary of the trading strategy based on liv
 Key performance metrics include :
 
 🌟 **Note:** **wanna mention here that the numbers presented here desire to reflect real and true performance without manipulation.**
+- ✅ **Annual Return** : 29.54%
+- ✅ **Profit Factor** : 1.48
 - **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
-- **Annual Return** : 29.54%
 - **Maximum Drawdown** : -20.52%
-- **Profit Factor** : 1.48
 - **Win Rate (%)**: 56.41%
 
 ### 📌 Strategy Performance Report (Backtested Period : From June 2001 to June 2025)
