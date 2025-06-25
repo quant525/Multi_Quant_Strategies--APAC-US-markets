@@ -18,7 +18,7 @@
 - **Rolling Frequency : 15-minute bars**  
 - **Typical Holding Time : 0.5 to 2 days**
 - **Strategy Time in Market (%) : 18.40%**   
-- **Backtested Period : From June 2001 to June 2025** *(To evaluate whether the strategy can remain robust under all-weather market conditions.)*
+- **Backtested Period : From May 2002 to June 2025** *(To evaluate whether the strategy can remain robust under all-weather market conditions.)*
 
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
@@ -33,7 +33,7 @@ Key performance metrics include :
 
 - ✅ **Win Rate (%) : 72.71% with consistent returns across 1,396 trades.**
 - ✅ **Annual Return: 31.08%**
-- ✅ **Sharpe Ratio : 1.25 (From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
+- ✅ **Sharpe Ratio : 1.25 (From May 2002 to June 2025 -> 23 years backtested sharpe ratio)**
 - Profit Factor : 1.66
 - Maximum Drawdown : -10.49%
 
@@ -165,12 +165,12 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 | Max Profit Date                  | 2015/08/21                    |
 | Max Drawdown Date                | 2021/02/22                    |
 ---
-## 📈 NAV (Since June 2001)
+## 📈 NAV (Since May 2002)
 
 ![NAV_ Asymmetric Skew-Aware Trend Engine](https://github.com/user-attachments/assets/e612e457-1693-4cca-8af1-ed367f1b0dfe)
 
 ---
-## 📈 Equity Curve (Since June 2001)
+## 📈 Equity Curve (Since May 2002)
 
 ![EquityCurve_ Asymmetric Skew-Aware Trend Engine](https://github.com/user-attachments/assets/003da330-6d98-4bd1-8d28-b2474899a96e)
 
