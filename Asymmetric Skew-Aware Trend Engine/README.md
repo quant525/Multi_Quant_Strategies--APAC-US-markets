@@ -18,7 +18,7 @@
 - **Rolling Frequency : 15-minute bars**  
 - **Typical Holding Time : 0.5 to 2 days**
 - **Strategy Time in Market (%) : 18.40%**   
-- **Backtested Period : From June 2001 to June 2025** *(In order to test if the strategy can survive under All-weather conditions)*
+- **Backtested Period : From June 2001 to June 2025** *(To evaluate whether the strategy can remain robust under all-weather market conditions.)*
 
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
