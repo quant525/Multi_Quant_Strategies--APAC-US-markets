@@ -8,8 +8,6 @@
 🌟 **Note:** 
 *All results are based on real historical market data. Backtest coverage spans over 18 years, and *the strategy has been live traded on TXF for over a year*. While different strategy versions have been deployed during live trading to meet institutional requirements, the core logic remains unchanged. The version presented here reflects a personally preferred configuration selected for its clarity and transparency in performance representation.*
 
-*This README was automatically generated as part of a real-time strategy monitoring and reporting system.*
-
 ## 📌 Strategy Attributes
 
 - **Strategy Name : Intermarket Trend Divergence Model**  
