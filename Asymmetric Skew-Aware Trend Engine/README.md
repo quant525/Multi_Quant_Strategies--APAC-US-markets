@@ -167,10 +167,12 @@ This section outlines the annual performance of the strategy from 2002 to 2025, 
 ---
 ## 📈 NAV (Since June 2001)
 
+![NAV_ Asymmetric Skew-Aware Trend Engine](https://github.com/user-attachments/assets/e612e457-1693-4cca-8af1-ed367f1b0dfe)
 
 ---
 ## 📈 Equity Curve (Since June 2001)
 
+![EquityCurve_ Asymmetric Skew-Aware Trend Engine](https://github.com/user-attachments/assets/003da330-6d98-4bd1-8d28-b2474899a96e)
 
 #### 📌 Notes
 
