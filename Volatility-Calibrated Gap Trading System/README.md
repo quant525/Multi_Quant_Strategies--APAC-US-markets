@@ -158,11 +158,11 @@ This section outlines the annual performance of the strategy from 2001 to 2025, 
 | Max Profit Date                             | 2007/10/3                               |
 | Max Loss Date                               | 2007/8/21                               |
 ---
-## 📈 NAV (Since June 2001)
+## 📈 NAV (Since July 2001)
 
 ![NAV_Volatility-Calibrated Gap Trading System](https://github.com/user-attachments/assets/fee7eca2-bc10-405c-b354-623409e1a60c)
 ---
-## 📈 Equity Curve (Since June 2001)
+## 📈 Equity Curve (Since July 2001)
 
 ![EquityCurve_Volatility-Calibrated Gap Trading System](https://github.com/user-attachments/assets/cf4c360b-82cf-4276-8548-793e71fde90a)
 
