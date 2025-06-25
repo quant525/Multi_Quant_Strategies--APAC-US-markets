@@ -10,7 +10,7 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 #### *Strategy Advantage*
 #### What distinguishes this strategy is not just its signal quality, but its dynamic adaptability. Rather than relying on rigid thresholds, the system continuously reevaluates market conditions to decide whether the current environment is statistically suitable for signal activation. This reverses the common approach: instead of forcing trades into static templates, the strategy listens to the market and only acts when the structural context aligns with its core logic.
 
-*This README was automatically generated as part of a real-time strategy monitoring and reporting system. (The strategy has been live traded since March 2024 through to the present.)*
+*This README was automatically generated as part of a real-time strategy monitoring and reporting system. (The strategy has been live traded from March 2024 through the present.)*
 
 ### 📌 Strategy Attributes
 
@@ -25,8 +25,8 @@ This regime-adaptive structure allows the strategy to benefit from both trend-fo
 
 ⭐️ **Key Highlight:**
 #### *Why Full-History Backtesting?*
-#### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macro cycles.*
-#### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without the need for manual parameter tuning—this reinforces the “all-weather” thesis.*
+#### (1) *The strategy is tested over the full historical dataset to capture a wide range of market regimes and ensure its resilience under different volatility, correlation, and macrocycles.*
+#### (2) *The system incorporates a rolling logic core, allowing continuous internal adaptation without manual parameter tuning—this reinforces the “all-weather” thesis.*
 
 ## 📌 Strategy Overview
 
@@ -34,7 +34,7 @@ This table provides a comprehensive summary of the trading strategy based on liv
 
 Key performance metrics include :
 
-🌟 **Important Note:** **Just wanna mentioned here, the numbers presented here desire to reflect the real and true performance without any manipulation.**
+🌟 **Note:** **wanna mention here that the numbers presented here desire to reflect real and true performance without manipulation.**
 - **Sharpe Ratio** : 1.0537 **(From June 2001 to June 2025 -> 24 years backtested sharpe ratio)**
 - **Annual Return** : 29.54%
 - **Maximum Drawdown** : -20.52%
