@@ -162,8 +162,9 @@ This repository summarizes the performance of a trading strategy applied to Taiw
 
 ![EquityCurve_ Intermarket Trend Divergence Model](https://github.com/user-attachments/assets/97b6b009-a921-4d63-8bfc-f511c3a547c5)
 
+#### 🔄 Data Source
+Data is exported from MultiCharts in CSV format.
 #### 📌 Notes
-
 - *No strategy source code is included in this repository.*
 - *Performance matrix updated from MultiCharts outputs. Profits are in TWD.*
 _Last updated: 2025-06-24_
